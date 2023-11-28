@@ -12,6 +12,7 @@ import GoldenSpanEngineering from "./MainContent/Projects/GoldenSpanEngineering/
 import VoltLogicSolutions from "./MainContent/Projects/VoltLogicSolutions/VoltLogicSolutions";
 import JazzSaxophone from "./MainContent/Hobbies/JazzSaxophone/JazzSaxophone";
 import Layout from "./Layout";
+import GlobalJokingAcademy from "./MainContent/Experiences/GlobalJokingDirectory/GlobalJokingDirectory";
 
 function App() {
     return (
@@ -26,6 +27,7 @@ function App() {
                             <Route path="/experiences/global-engineering-academy" element={<GlobalEngineeringAcademy />} />
                             <Route path="/experiences/tech-institute" element={<TechInstitute />} />
                             <Route path="/experiences/mechrobotics-solutions" element={<MechroboticsSolutions />} />
+                            <Route path="/experiences/global-joking-academy" element={<GlobalJokingAcademy />} />
                             <Route path="/projects" element={<Projects />} />
                             <Route path="/projects/goldenspan-engineering" element={<GoldenSpanEngineering />} />
                             <Route path="/projects/voltlogic-solutions" element={<VoltLogicSolutions />} />
