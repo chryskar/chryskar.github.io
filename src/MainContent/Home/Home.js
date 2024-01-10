@@ -15,7 +15,7 @@ function Home () {
                             My expected graduation date is in May-June of 2024 and I am excited to explore job opportunities in industry or research centers. </span>
                         <br />
                         <span> Currently, I am working as a research assistant at the Human-Oriented Robotics and Control Lab{' '}
-                          <a href="https://sites.udel.edu/horclab/" target="_blank" rel="noopener noreferrer" style={{ color: '#FF5733' }}
+                          <a href="https://sites.udel.edu/horclab/" target="_blank" rel="noopener noreferrer" style={{ color: '#FF5733 !important'}}
                           >
                              (HORC Lab)
                             </a>
