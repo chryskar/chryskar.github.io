@@ -5,17 +5,17 @@ import Logo4 from './img/b7b82bf6-fd6e-4a3f-9ed1-d03398e17a27.webp'
 
 import {Link} from "react-router-dom";
 
-function Experiences () {
+function Experience () {
     return (
         <div>
             <div className="d-flex flex-column align-items-center">
-                <h1 className="fw-bold">Experiences</h1>
+                <h1 className="fw-bold">Experience</h1>
                 <div className="container d-flex flex-wrap justify-content-center">
 
                     <Link to={"global-engineering-academy"} className="d-flex flex-column align-items-center m-5 clickable">
                         <img src={Logo1} alt="Logo 1" className="section-logo m-2"/>
-                        <h4 className="fw-bold m-2">Global Engineering Academy</h4>
-                        <span className="m-2">2020</span>
+                        <h4 className="fw-bold m-2">University of Delaware</h4>
+                        <span className="m-2">2019-2024</span>
                     </Link>
 
                     <Link to={"tech-institute"} className="d-flex flex-column align-items-center m-5 clickable">
@@ -42,4 +42,4 @@ function Experiences () {
     )
 }
 
-export default Experiences;
+export default Experience;

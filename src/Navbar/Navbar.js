@@ -7,8 +7,8 @@ function Navbar() {
             <NavLink to={"/home"} className={"custom-nav-link clickable"}>
                 <h4 className="mx-3 h4">Home</h4>
             </NavLink>
-            <NavLink to={"/experiences"} className={"custom-nav-link clickable"}>
-                <h4 className="mx-3 h4">Experiences</h4>
+            <NavLink to={"/experience"} className={"custom-nav-link clickable"}>
+                <h4 className="mx-3 h4">Experience</h4>
             </NavLink>
             <NavLink to={"/projects"} className={"custom-nav-link clickable"}>
                 <h4 className="mx-3 h4">Projects</h4>
