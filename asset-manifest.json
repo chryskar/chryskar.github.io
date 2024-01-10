@@ -1,23 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.647cc4d7.css",
-    "main.js": "/static/js/main.a45faede.js",
+    "main.css": "/static/css/main.3807947a.css",
+    "main.js": "/static/js/main.9f2d1505.js",
     "static/js/787.a391c485.chunk.js": "/static/js/787.a391c485.chunk.js",
     "static/media/sax.png": "/static/media/sax.0eecd1d55f71bee056cc.png",
     "static/media/ProjectIcon1.png": "/static/media/ProjectIcon1.bdda5e5ae69a90a111dc.png",
     "static/media/ProjectIcon2.png": "/static/media/ProjectIcon2.ed017907551e93221d92.png",
     "static/media/5e0faf21-4fe7-4397-a0bb-4ef2e2cb2723.webp": "/static/media/5e0faf21-4fe7-4397-a0bb-4ef2e2cb2723.a4f21b14b15a471692b7.webp",
+    "static/media/PXL_20220918_013608740.jpg": "/static/media/PXL_20220918_013608740.416033fc8c704aa894a3.jpg",
     "static/media/571cc9f0-c184-4edc-bb45-3041958b018e.webp": "/static/media/571cc9f0-c184-4edc-bb45-3041958b018e.34a936a2abf30b388ec7.webp",
-    "static/media/karakasis_2022.jpg": "/static/media/karakasis_2022.fb6dd128101718252602.jpg",
     "static/media/b7b82bf6-fd6e-4a3f-9ed1-d03398e17a27.webp": "/static/media/b7b82bf6-fd6e-4a3f-9ed1-d03398e17a27.b8319dca967c6a8af4ed.webp",
     "index.html": "/index.html",
+    "static/media/google-scholar.svg": "/static/media/google-scholar.a32378546e166307aff5fd95d1b4cf43.svg",
     "static/media/mail_FILL0_wght400_GRAD-25_opsz24.svg": "/static/media/mail_FILL0_wght400_GRAD-25_opsz24.28d398c5adc21425d9b27587d6db95a0.svg",
-    "main.647cc4d7.css.map": "/static/css/main.647cc4d7.css.map",
-    "main.a45faede.js.map": "/static/js/main.a45faede.js.map",
+    "main.3807947a.css.map": "/static/css/main.3807947a.css.map",
+    "main.9f2d1505.js.map": "/static/js/main.9f2d1505.js.map",
     "787.a391c485.chunk.js.map": "/static/js/787.a391c485.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.647cc4d7.css",
-    "static/js/main.a45faede.js"
+    "static/css/main.3807947a.css",
+    "static/js/main.9f2d1505.js"
   ]
 }
