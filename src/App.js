@@ -13,6 +13,7 @@ import VoltLogicSolutions from "./MainContent/Projects/VoltLogicSolutions/VoltLo
 import JazzSaxophone from "./MainContent/Hobbies/JazzSaxophone/JazzSaxophone";
 import Layout from "./Layout";
 import GlobalJokingAcademy from "./MainContent/Experience/GlobalJokingDirectory/GlobalJokingDirectory";
+import Publications from "./MainContent/Publications/Publications";
 
 function App() {
     return (
@@ -33,6 +34,7 @@ function App() {
                             <Route path="/projects/voltlogic-solutions" element={<VoltLogicSolutions />} />
                             <Route path="/hobbies" element={<Hobbies />} />
                             <Route path="/hobbies/jazz-saxophone" element={<JazzSaxophone />} />
+                            <Route path="/publications" element={<Publications />} />
                             <Route path="*" element={<Navigate to="/" replace />} />
                         </Routes>
                     </Layout>

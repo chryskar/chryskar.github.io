@@ -10,6 +10,9 @@ function Navbar() {
             <NavLink to={"/experience"} className={"custom-nav-link clickable"}>
                 <h4 className="mx-3 h4">Experience</h4>
             </NavLink>
+            <NavLink to={"/publications"} className={"custom-nav-link clickable"}>
+                <h4 className="mx-3 h4">Publications</h4>
+            </NavLink>
             <NavLink to={"/projects"} className={"custom-nav-link clickable"}>
                 <h4 className="mx-3 h4">Projects</h4>
             </NavLink>
