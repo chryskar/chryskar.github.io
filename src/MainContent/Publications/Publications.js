@@ -2,6 +2,8 @@ import React, { useState, useEffect } from "react";
 import BibtexParser from "bibtex-parse-js";
 
 function Publications() {
+    const [journalCounter, setJournalCounter] = useState(3);
+    const [conferenceCounter, setConferenceCounter] = useState(4);
     const [citations, setCitations] = useState([]);
 
     useEffect(() => {
@@ -112,9 +114,9 @@ Investigate Locomotion on Compliant Terrains},
 
                         {citations
                             .filter((citation) => citation.entryType === "article")
-                            .map((citation) => (
+                            .map((citation, index) => (
                                 <div key={citation.citationKey}>
-                                    <p> <span dangerouslySetInnerHTML={{ __html: citation.entryTags.author.replace(/Chrysostomos Karakasis/g, '<strong>Chrysostomos Karakasis</strong>') }} />, "<strong>{citation.entryTags.title}</strong>", in {citation.entryTags.booktitle}. </p>
+                                    <p> {`[J${journalCounter - index}] `} <span dangerouslySetInnerHTML={{ __html: citation.entryTags.author.replace(/Chrysostomos Karakasis/g, '<strong>Chrysostomos Karakasis</strong>') }} />, "<strong>{citation.entryTags.title}</strong>", in {citation.entryTags.booktitle}, {citation.entryTags.year}. </p>
                                     {/*<p>Title: {citation.entryTags.title}</p>*/}
                                     {/*<p>Year: {citation.entryTags.year}</p>*/}
                                     {/* Add more fields as needed */}
@@ -130,9 +132,9 @@ Investigate Locomotion on Compliant Terrains},
 
                         {citations
                             .filter((citation) => citation.entryType === "inproceedings")
-                            .map((citation) => (
+                            .map((citation,index) => (
                                 <div key={citation.citationKey}>
-                                    <p> <span style={{ fontWeight: 500 }} dangerouslySetInnerHTML={{ __html: citation.entryTags.author.replace(/Chrysostomos Karakasis/g, '<strong>Chrysostomos Karakasis</strong>') }} />, "<strong>{citation.entryTags.title}</strong>", in {citation.entryTags.booktitle}. </p>
+                                    <p> {`[C${conferenceCounter - index}] `} <span style={{ fontWeight: 500 }} dangerouslySetInnerHTML={{ __html: citation.entryTags.author.replace(/Chrysostomos Karakasis/g, '<strong>Chrysostomos Karakasis</strong>') }} />, "<strong>{citation.entryTags.title}</strong>", in {citation.entryTags.booktitle}. </p>
                                     {/*<p>Title: {citation.entryTags.title}</p>*/}
                                     {/*<p>Year: {citation.entryTags.year}</p>*/}
                                     {/* Add more fields as needed */}
