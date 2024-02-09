@@ -1,5 +1,5 @@
 import './App.css';
-import {BrowserRouter, Routes, Route, Navigate} from 'react-router-dom';
+import {HashRouter, Routes, Route, Navigate} from 'react-router-dom';
 import Home from "./MainContent/Home/Home";
 import Experience from "./MainContent/Experience/Experience";
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -18,7 +18,7 @@ import Publications from "./MainContent/Publications/Publications";
 function App() {
     return (
         <>
-            <BrowserRouter>
+            <HashRouter>
                 <div className="site-container">
                     <Layout>
                         <Routes>
@@ -39,7 +39,7 @@ function App() {
                         </Routes>
                     </Layout>
                 </div>
-            </BrowserRouter>
+            </HashRouter>
 
         </>
     );
