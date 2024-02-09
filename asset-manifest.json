@@ -1,24 +1,35 @@
 {
   "files": {
-    "main.css": "/static/css/main.84cdbb12.css",
-    "main.js": "/static/js/main.27f86edb.js",
+    "main.css": "/static/css/main.61f53b96.css",
+    "main.js": "/static/js/main.04b22aad.js",
     "static/js/592.39fbeac9.chunk.js": "/static/js/592.39fbeac9.chunk.js",
     "static/media/sax.png": "/static/media/sax.0eecd1d55f71bee056cc.png",
+    "static/media/fa-solid-900.ttf": "/static/media/fa-solid-900.45a265d0f07b31cde85f.ttf",
     "static/media/ProjectIcon1.png": "/static/media/ProjectIcon1.bdda5e5ae69a90a111dc.png",
+    "static/media/academicons.svg": "/static/media/academicons.c2f62710e847070d5e6c.svg",
     "static/media/ProjectIcon2.png": "/static/media/ProjectIcon2.ed017907551e93221d92.png",
+    "static/media/fa-brands-400.ttf": "/static/media/fa-brands-400.6205fd00fb1b573e9f0f.ttf",
+    "static/media/CV_Karakasis_2024.pdf": "/static/media/CV_Karakasis_2024.312ca71a5f311a01f45f.pdf",
+    "static/media/fa-solid-900.woff2": "/static/media/fa-solid-900.fb8184add5a3101ad0a3.woff2",
     "static/media/PXL_20220918_013608740.jpg": "/static/media/PXL_20220918_013608740.416033fc8c704aa894a3.jpg",
+    "static/media/academicons.woff": "/static/media/academicons.c8b8bfc0fed119707316.woff",
+    "static/media/fa-brands-400.woff2": "/static/media/fa-brands-400.8d3cabfc66809162fb4d.woff2",
     "static/media/571cc9f0-c184-4edc-bb45-3041958b018e.webp": "/static/media/571cc9f0-c184-4edc-bb45-3041958b018e.34a936a2abf30b388ec7.webp",
     "static/media/b7b82bf6-fd6e-4a3f-9ed1-d03398e17a27.webp": "/static/media/b7b82bf6-fd6e-4a3f-9ed1-d03398e17a27.b8319dca967c6a8af4ed.webp",
+    "static/media/fa-regular-400.ttf": "/static/media/fa-regular-400.adc51aab4d771ab65f81.ttf",
+    "static/media/academicons.eot": "/static/media/academicons.e8713c3132628422b2e5.eot",
+    "static/media/academicons.ttf": "/static/media/academicons.4f700bbf66a5f360ce35.ttf",
     "static/media/HORC_Logo_LightBG.png": "/static/media/HORC_Logo_LightBG.2a4ab33fe008d04a777a.png",
+    "static/media/fa-regular-400.woff2": "/static/media/fa-regular-400.e931bc0d14f5bbb1da22.woff2",
+    "static/media/fa-v4compatibility.ttf": "/static/media/fa-v4compatibility.2eb7b3ef25042305f3ff.ttf",
+    "static/media/fa-v4compatibility.woff2": "/static/media/fa-v4compatibility.b3049b13a93f07e026fc.woff2",
     "index.html": "/index.html",
-    "static/media/google-scholar.svg": "/static/media/google-scholar.a32378546e166307aff5fd95d1b4cf43.svg",
-    "static/media/mail_FILL0_wght400_GRAD-25_opsz24.svg": "/static/media/mail_FILL0_wght400_GRAD-25_opsz24.28d398c5adc21425d9b27587d6db95a0.svg",
-    "main.84cdbb12.css.map": "/static/css/main.84cdbb12.css.map",
-    "main.27f86edb.js.map": "/static/js/main.27f86edb.js.map",
+    "main.61f53b96.css.map": "/static/css/main.61f53b96.css.map",
+    "main.04b22aad.js.map": "/static/js/main.04b22aad.js.map",
     "592.39fbeac9.chunk.js.map": "/static/js/592.39fbeac9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.84cdbb12.css",
-    "static/js/main.27f86edb.js"
+    "static/css/main.61f53b96.css",
+    "static/js/main.04b22aad.js"
   ]
 }
