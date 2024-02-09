@@ -19,7 +19,7 @@ function Home () {
                           >
                              (HORC Lab)
                             </a>
-                            , where my main research goal is the development of a controller for an ankle-foot prosthesis that can adjust to multiple surfaces with variable compliance.
+                            , where my main research focuses on achieving robust and stable locomotion over compliant terrains, with applications to lower-limb prostheses and bipedal robots.
                             My research interests include rehabilitation robotics, bipedal robots, prosthetics, and dynamical systems.
                             Please feel welcome to look around and feel free to reach out via the contact links below.
                         </span>
