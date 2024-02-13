@@ -2,8 +2,8 @@ import React, { useState, useEffect } from "react";
 import BibtexParser from "bibtex-parse-js";
 
 function Publications() {
-    const [journalCounter, setJournalCounter] = useState(3);
-    const [conferenceCounter, setConferenceCounter] = useState(4);
+    const [journalCounter ] = useState(3);
+    const [conferenceCounter] = useState(4);
     const [citations, setCitations] = useState([]);
 
     useEffect(() => {
