@@ -1,8 +1,9 @@
 // import Logo1 from './img/5e0faf21-4fe7-4397-a0bb-4ef2e2cb2723.webp'
-import Logo2 from './img/571cc9f0-c184-4edc-bb45-3041958b018e.webp'
-import Logo3 from './img/b7b82bf6-fd6e-4a3f-9ed1-d03398e17a27.webp'
-import Logo4 from './img/b7b82bf6-fd6e-4a3f-9ed1-d03398e17a27.webp'
-import UDImage from './HORC_Logo_LightBG.png'
+import JnJ from './img/jjmedtech-logo-header.svg'
+import NTUA from './img/NTUA.png'
+import UD from './img/University of Delaware.png'
+import HORC from './HORC_Logo_LightBG.png'
+import MLAB from './img/cropped-mlab_logo_white-1.jpg'
 
 import {Link} from "react-router-dom";
 
@@ -14,27 +15,33 @@ function Experience () {
                 <div className="container d-flex flex-wrap justify-content-center">
 
                     <Link to={"global-engineering-academy"} className="d-flex flex-column align-items-center m-5 clickable">
-                        <img src={UDImage} alt="UDImage" className="section-logo m-2"/>
+                        <img src={HORC} alt="HORC" className="section-logo m-2"/>
                         <h4 className="fw-bold m-2">University of Delaware</h4>
                         <span className="m-2">2019-2024</span>
                     </Link>
 
                     <Link to={"tech-institute"} className="d-flex flex-column align-items-center m-5 clickable">
-                        <img src={Logo2} alt="Logo 2" className="section-logo m-2"/>
-                        <h4 className="fw-bold m-2">Tech Institute</h4>
-                        <span className="m-2">2020-2021</span>
+                        <img src={JnJ} alt="JnJ" className="section-logo m-2"/>
+                        <h4 className="fw-bold m-2">Johnson & Johnson Medtech</h4>
+                        <span className="m-2">June 2022- August 2022</span>
+                    </Link>
+
+                    <Link to={"global-engineering-academy"} className="d-flex flex-column align-items-center m-5 clickable">
+                        <img src={UD} alt="UD" className="section-logo m-2"/>
+                        <h4 className="fw-bold m-2">University of Delaware</h4>
+                        <span className="m-2">2019-2024</span>
                     </Link>
 
                     <Link to={"mechrobotics-solutions"} className="d-flex flex-column align-items-center m-5 clickable">
-                        <img src={Logo3} alt="Logo 3" className="section-logo m-2"/>
-                        <h4 className="fw-bold m-2">Internship</h4>
-                        <span className="m-2">2022</span>
+                        <img src={MLAB} alt="MLAB" className="section-logo m-2"/>
+                        <h4 className="fw-bold m-2">National Technical University of Athens</h4>
+                        <span className="m-2">2013-2019</span>
                     </Link>
 
-                    <Link to={"global-joking-academy"} className="d-flex flex-column align-items-center m-5 clickable">
-                        <img src={Logo4} alt="Logo 1" className="section-logo m-2"/>
-                        <h4 className="fw-bold m-2">Global Joking Academy</h4>
-                        <span className="m-2">Delapopo</span>
+                    <Link to={"mechrobotics-solutions"} className="d-flex flex-column align-items-center m-5 clickable">
+                        <img src={NTUA} alt="NTUA" className="section-logo m-2"/>
+                        <h4 className="fw-bold m-2">National Technical University of Athens</h4>
+                        <span className="m-2">2013-2019</span>
                     </Link>
 
                 </div>

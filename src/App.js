@@ -12,7 +12,6 @@ import GoldenSpanEngineering from "./MainContent/Projects/GoldenSpanEngineering/
 import VoltLogicSolutions from "./MainContent/Projects/VoltLogicSolutions/VoltLogicSolutions";
 import JazzSaxophone from "./MainContent/Hobbies/JazzSaxophone/JazzSaxophone";
 import Layout from "./Layout";
-import GlobalJokingAcademy from "./MainContent/Experience/GlobalJokingDirectory/GlobalJokingDirectory";
 import Publications from "./MainContent/Publications/Publications";
 import CollectingRecords from "./MainContent/Hobbies/CollectingRecords/CollectingRecords";
 
@@ -29,7 +28,6 @@ function App() {
                             <Route path="/experience/global-engineering-academy" element={<GlobalEngineeringAcademy />} />
                             <Route path="/experience/tech-institute" element={<TechInstitute />} />
                             <Route path="/experience/mechrobotics-solutions" element={<MechroboticsSolutions />} />
-                            <Route path="/experience/global-joking-academy" element={<GlobalJokingAcademy />} />
                             <Route path="/projects" element={<Projects />} />
                             <Route path="/projects/goldenspan-engineering" element={<GoldenSpanEngineering />} />
                             <Route path="/projects/voltlogic-solutions" element={<VoltLogicSolutions />} />
