@@ -3,7 +3,7 @@ function ResearchAssistant() {
         <div>
             <div className="container d-flex flex-column">
 
-                <h2 className="fw-bold m-3">Graduate Research Assistant</h2>
+                <h2 className="fw-bold m-3">Graduate Research Assistant at HORC Lab</h2>
 
                 <h3 className="fw-medium m-3">Research Projects</h3>
 

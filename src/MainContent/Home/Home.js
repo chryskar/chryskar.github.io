@@ -15,7 +15,7 @@ function Home () {
                             My expected graduation date is in June of 2024 and I am excited to explore job opportunities in industry or research centers. </span>
                         <br />
                         <span> Currently, I am working as a research assistant at the Human-Oriented Robotics and Control Lab
-                            <a href="https://sites.udel.edu/horclab/" target="_blank" rel="noopener noreferrer" style={{marginRight: '0px' }}> (HORC Lab)</a>
+                            <a href="https://sites.udel.edu/horclab/" target="_blank" rel="noopener noreferrer" style={{marginRight: '0px'}}> (HORC Lab)</a>
                             , where my main research focuses on achieving <strong>robust and stable locomotion over compliant terrains</strong>, with applications to lower-limb prostheses and bipedal robots.
                             Please feel welcome to look around and feel free to reach out via the contact links below.
                         </span>
@@ -25,7 +25,7 @@ function Home () {
                             <div className="col-md-5">
                                 <h3 className="fw-bold">Interests</h3>
                                 <ul className="ul-interests mb-0">
-                                    <li>Rehabilitation & Surgical Robotics</li>
+                                    <li>Rehabilitation & Medical Robotics</li>
                                     <li>Legged Locomotion</li>
                                     <li>Dynamics and Control</li>
                                     <li>Embedded Systems Design</li>
