@@ -14,7 +14,7 @@ function Experience () {
                 <h1 className="fw-bold">Experience</h1>
                 <div className="container d-flex flex-wrap justify-content-center">
 
-                    <Link to={"global-engineering-academy"} className="d-flex flex-column align-items-center m-5 clickable">
+                    <Link to={"research-assistant"} className="d-flex flex-column align-items-center m-5 clickable">
                         <div className="card-shadow">
                             <div className="card">
                                 <div className="card-image-container">
@@ -26,7 +26,7 @@ function Experience () {
                         </div>
                     </Link>
 
-                    <Link to={"tech-institute"} className="d-flex flex-column align-items-center m-5 clickable">
+                    <Link to={"jnj-intern"} className="d-flex flex-column align-items-center m-5 clickable">
                         <div className="card-shadow">
                             <div className="card">
                                 <div className="card-image-container">
@@ -38,7 +38,7 @@ function Experience () {
                         </div>
                     </Link>
 
-                    <Link to={"global-engineering-academy"} className="d-flex flex-column align-items-center m-5 clickable">
+                    <Link to={"phd-ud"} className="d-flex flex-column align-items-center m-5 clickable">
                         <div className="card-shadow">
                             <div className="card">
                                 <div className="card-image-container">
@@ -50,7 +50,7 @@ function Experience () {
                         </div>
                     </Link>
 
-                    <Link to={"mechrobotics-solutions"} className="d-flex flex-column align-items-center m-5 clickable">
+                    <Link to={"teaching-assistant"} className="d-flex flex-column align-items-center m-5 clickable">
                         <div className="card-shadow">
                             <div className="card">
                                 <div className="card-image-container">
@@ -62,7 +62,7 @@ function Experience () {
                         </div>
                     </Link>
 
-                    <Link to={"mechrobotics-solutions"} className="d-flex flex-column align-items-center m-5 clickable">
+                    <Link to={"diploma"} className="d-flex flex-column align-items-center m-5 clickable">
                         <div className="card-shadow">
                             <div className="card">
                                 <div className="card-image-container">
