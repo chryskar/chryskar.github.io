@@ -1,11 +1,11 @@
-// import Logo1 from './img/5e0faf21-4fe7-4397-a0bb-4ef2e2cb2723.webp'
 import JnJ from './img/jjmedtech-logo-header.svg'
 import NTUA from './img/NTUA.png'
 import UD from './img/University of Delaware.png'
-import HORC from './HORC_Logo_LightBG.png'
+import HORC from './img/HORC_Logo_LightBG.png'
 import MLAB from './img/cropped-mlab_logo_white-1.jpg'
 
 import {Link} from "react-router-dom";
+import './BoxWithImage.css'; // Import your CSS file
 
 function Experience () {
     return (
@@ -15,33 +15,63 @@ function Experience () {
                 <div className="container d-flex flex-wrap justify-content-center">
 
                     <Link to={"global-engineering-academy"} className="d-flex flex-column align-items-center m-5 clickable">
-                        <img src={HORC} alt="HORC" className="section-logo m-2"/>
-                        <h4 className="fw-bold m-2">University of Delaware</h4>
-                        <span className="m-2">2019-2024</span>
+                        <div className="card-shadow">
+                            <div className="card">
+                                <div className="card-image-container">
+                                    <img className="card-image" src={HORC} alt="HORC"/>
+                                </div>
+                                <div className="card-title fw-bold">Graduate Research Assistant</div>
+                                <div className="card-subtext fw-bold">2019-Present</div>
+                            </div>
+                        </div>
                     </Link>
 
                     <Link to={"tech-institute"} className="d-flex flex-column align-items-center m-5 clickable">
-                        <img src={JnJ} alt="JnJ" className="section-logo m-2"/>
-                        <h4 className="fw-bold m-2">Johnson & Johnson Medtech</h4>
-                        <span className="m-2">June 2022- August 2022</span>
+                        <div className="card-shadow">
+                            <div className="card">
+                                <div className="card-image-container">
+                                    <img className="card-image" src={JnJ} alt="JnJ"/>
+                                </div>
+                                <div className="card-title fw-bold">Robotics and Controls Engineer Intern</div>
+                                <div className="card-subtext fw-bold">June 2022- August 2022</div>
+                            </div>
+                        </div>
                     </Link>
 
                     <Link to={"global-engineering-academy"} className="d-flex flex-column align-items-center m-5 clickable">
-                        <img src={UD} alt="UD" className="section-logo m-2"/>
-                        <h4 className="fw-bold m-2">University of Delaware</h4>
-                        <span className="m-2">2019-2024</span>
+                        <div className="card-shadow">
+                            <div className="card">
+                                <div className="card-image-container">
+                                    <img className="card-image" src={UD} style={{ width: '80%' }} alt="UD"/>
+                                </div>
+                                <div className="card-title fw-bold">Ph.D. in Mechanical Engineering</div>
+                                <div className="card-subtext fw-bold">2019-Present</div>
+                            </div>
+                        </div>
                     </Link>
 
                     <Link to={"mechrobotics-solutions"} className="d-flex flex-column align-items-center m-5 clickable">
-                        <img src={MLAB} alt="MLAB" className="section-logo m-2"/>
-                        <h4 className="fw-bold m-2">National Technical University of Athens</h4>
-                        <span className="m-2">2013-2019</span>
+                        <div className="card-shadow">
+                            <div className="card">
+                                <div className="card-image-container">
+                                    <img className="card-image" src={MLAB} alt="MLAB"/>
+                                </div>
+                                <div className="card-title fw-bold">Teaching Assistant</div>
+                                <div className="card-subtext fw-bold">2018-2019</div>
+                            </div>
+                        </div>
                     </Link>
 
                     <Link to={"mechrobotics-solutions"} className="d-flex flex-column align-items-center m-5 clickable">
-                        <img src={NTUA} alt="NTUA" className="section-logo m-2"/>
-                        <h4 className="fw-bold m-2">National Technical University of Athens</h4>
-                        <span className="m-2">2013-2019</span>
+                        <div className="card-shadow">
+                            <div className="card">
+                                <div className="card-image-container">
+                                    <img className="card-image" style={{ width: '50%' }} src={NTUA} alt="NTUA"/>
+                                </div>
+                                <div className="card-title fw-bold">Diploma in Electrical and Computer Engineering</div>
+                                <div className="card-subtext fw-bold">2013-2019</div>
+                            </div>
+                        </div>
                     </Link>
 
                 </div>

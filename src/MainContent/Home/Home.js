@@ -16,7 +16,7 @@ function Home () {
                         <br />
                         <span> Currently, I am working as a research assistant at the Human-Oriented Robotics and Control Lab
                             <a href="https://sites.udel.edu/horclab/" target="_blank" rel="noopener noreferrer" style={{marginRight: '0px' }}> (HORC Lab)</a>
-                            , where my main research focuses on achieving robust and stable locomotion over compliant terrains, with applications to lower-limb prostheses and bipedal robots.
+                            , where my main research focuses on achieving <strong>robust and stable locomotion over compliant terrains</strong>, with applications to lower-limb prostheses and bipedal robots.
                             Please feel welcome to look around and feel free to reach out via the contact links below.
                         </span>
                         <br />
@@ -25,10 +25,10 @@ function Home () {
                             <div className="col-md-5">
                                 <h3 className="fw-bold">Interests</h3>
                                 <ul className="ul-interests mb-0">
-                                    <li>Robotics</li>
-                                    <li>Bipedal Locomotion</li>
-                                    <li>Prosthetics</li>
+                                    <li>Rehabilitation & Surgical Robotics</li>
+                                    <li>Legged Locomotion</li>
                                     <li>Dynamics and Control</li>
+                                    <li>Embedded Systems Design</li>
                                 </ul>
                             </div>
                             <div className="col-md-7">
