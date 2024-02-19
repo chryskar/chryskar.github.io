@@ -1,22 +1,27 @@
 {
   "files": {
-    "main.css": "/static/css/main.dbd471d4.css",
-    "main.js": "/static/js/main.2ede0271.js",
+    "main.css": "/static/css/main.371db0ce.css",
+    "main.js": "/static/js/main.00540c0d.js",
     "static/js/592.39fbeac9.chunk.js": "/static/js/592.39fbeac9.chunk.js",
+    "static/media/IROS23_1579_graphical_abstract.jpg": "/static/media/IROS23_1579_graphical_abstract.d57837e0074f93214998.jpg",
     "static/media/sax.png": "/static/media/sax.0eecd1d55f71bee056cc.png",
+    "static/media/front_view_robot.jpg": "/static/media/front_view_robot.8aafe00b4ae7626c9de8.jpg",
+    "static/media/dual_slip.jpg": "/static/media/dual_slip.d45fcd7fde3f95284421.jpg",
     "static/media/fa-solid-900.ttf": "/static/media/fa-solid-900.45a265d0f07b31cde85f.ttf",
-    "static/media/ProjectIcon1.png": "/static/media/ProjectIcon1.bdda5e5ae69a90a111dc.png",
     "static/media/NTUA.png": "/static/media/NTUA.25622cee54d8cd913e59.png",
     "static/media/academicons.svg": "/static/media/academicons.c2f62710e847070d5e6c.svg",
     "static/media/record.jpg": "/static/media/record.de9aaaa35eb17a558fa3.jpg",
-    "static/media/ProjectIcon2.png": "/static/media/ProjectIcon2.ed017907551e93221d92.png",
+    "static/media/personal_webpage.png": "/static/media/personal_webpage.94ca878d3fe06a4ff565.png",
     "static/media/fa-brands-400.ttf": "/static/media/fa-brands-400.6205fd00fb1b573e9f0f.ttf",
     "static/media/CV_Karakasis_2024.pdf": "/static/media/CV_Karakasis_2024.312ca71a5f311a01f45f.pdf",
     "static/media/fa-solid-900.woff2": "/static/media/fa-solid-900.fb8184add5a3101ad0a3.woff2",
     "static/media/PXL_20220918_013608740.jpg": "/static/media/PXL_20220918_013608740.416033fc8c704aa894a3.jpg",
     "static/media/academicons.woff": "/static/media/academicons.c8b8bfc0fed119707316.woff",
     "static/media/fa-brands-400.woff2": "/static/media/fa-brands-400.8d3cabfc66809162fb4d.woff2",
+    "static/media/laelapsII.jpg": "/static/media/laelapsII.1b4a9a047a556db163c0.jpg",
     "static/media/fa-regular-400.ttf": "/static/media/fa-regular-400.adc51aab4d771ab65f81.ttf",
+    "static/media/vicon_mocap.jpg": "/static/media/vicon_mocap.57672f86ed54573b8dff.jpg",
+    "static/media/foot-strike.png": "/static/media/foot-strike.177cc03669a58f94ea29.png",
     "static/media/University of Delaware.png": "/static/media/University of Delaware.f16cb22587e89528a075.png",
     "static/media/academicons.eot": "/static/media/academicons.e8713c3132628422b2e5.eot",
     "static/media/academicons.ttf": "/static/media/academicons.4f700bbf66a5f360ce35.ttf",
@@ -26,12 +31,12 @@
     "static/media/fa-v4compatibility.ttf": "/static/media/fa-v4compatibility.2eb7b3ef25042305f3ff.ttf",
     "static/media/fa-v4compatibility.woff2": "/static/media/fa-v4compatibility.b3049b13a93f07e026fc.woff2",
     "index.html": "/index.html",
-    "main.dbd471d4.css.map": "/static/css/main.dbd471d4.css.map",
-    "main.2ede0271.js.map": "/static/js/main.2ede0271.js.map",
+    "main.371db0ce.css.map": "/static/css/main.371db0ce.css.map",
+    "main.00540c0d.js.map": "/static/js/main.00540c0d.js.map",
     "592.39fbeac9.chunk.js.map": "/static/js/592.39fbeac9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.dbd471d4.css",
-    "static/js/main.2ede0271.js"
+    "static/css/main.371db0ce.css",
+    "static/js/main.00540c0d.js"
   ]
 }
