@@ -13,7 +13,7 @@ function ResearchAssistant() {
                     <ol className="m-3">
                         <li className="mb-3"><span className="fw-medium">Improving Walking Stability of Ankle-Foot Prostheses across Compliant Terrains</span>
                             <br />
-                            Conducted gait experiments with three subjects to test the effect of adjusting the quasi-stiffness of an ankle-foot prosthesis across various compliant terrains.
+                            Conducted gait experiments with three subjects on VST 2 to test the effect of adjusting the quasi-stiffness of an ankle-foot prosthesis across various compliant terrains.
                         </li>
                         <li className="mb-3"><span className="fw-medium">The Variable Stiffness Treadmill (VST) 2.0: Development and Validation of a Unique Tool to Investigate Locomotion on Compliant Terrains</span>
                             <br />
@@ -73,7 +73,7 @@ function ResearchAssistant() {
 
                 <span className="text-body m-3">
                     Throughout my Ph.D., I have been acting as a reviewer for journal and conference submissions:
-                    <ul className="">
+                    <ul className="m-3">
                         <li>American Control Conference (ACC), 2023 - present</li>
                         <li>IEEE International Conference on Rehabilitation Robotics (ICORR), 2023 - present</li>
                         <li>IEEE Robotics and Automation Letters (RA-L), 2022 - present</li>

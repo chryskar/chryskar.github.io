@@ -3,19 +3,23 @@ import {HashRouter, Routes, Route, Navigate} from 'react-router-dom';
 import Home from "./MainContent/Home/Home";
 import Experience from "./MainContent/Experience/Experience";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Projects from "./MainContent/Projects/Projects";
 import Hobbies from "./MainContent/Hobbies/Hobbies";
 import Diploma from "./MainContent/Experience/Diploma/Diploma";
 import TeachingAssistant from "./MainContent/Experience/TeachingAssistant/TeachingAssistant";
 import JnJIntern from "./MainContent/Experience/JnJIntern/JnJIntern"
 import ResearchAssistant from "./MainContent/Experience/ResearchAssistant/ResearchAssistant";
-import GoldenSpanEngineering from "./MainContent/Projects/GoldenSpanEngineering/GoldenSpanEngineering";
-import VoltLogicSolutions from "./MainContent/Projects/VoltLogicSolutions/VoltLogicSolutions";
 import JazzSaxophone from "./MainContent/Hobbies/JazzSaxophone/JazzSaxophone";
 import Layout from "./Layout";
 import Publications from "./MainContent/Publications/Publications";
 import CollectingRecords from "./MainContent/Hobbies/CollectingRecords/CollectingRecords";
 import PhdUD from "./MainContent/Experience/PhdUD/PhdUD";
+import Projects from "./MainContent/Projects/Projects";
+import MasterThesis from "./MainContent/Projects/MasterThesis/MasterThesis";
+import VSTArchitecture from "./MainContent/Projects/VSTArchitecture/VSTArchitecture";
+import FVESPA from "./MainContent/Projects/FVESPA/FVESPA";
+import DualSLIP from "./MainContent/Projects/DualSLIP/DualSLIP";
+import AnkleProsthesis from "./MainContent/Projects/AnkleProsthesis/AnkleProsthesis";
+import LineTrackingRobot from "./MainContent/Projects/LineTrackingRobot/LineTrackingRobot";
 
 function App() {
     return (
@@ -33,8 +37,12 @@ function App() {
                             <Route path="/experience/teaching-assistant" element={<TeachingAssistant />} />
                             <Route path="/experience/diploma" element={<Diploma />} />
                             <Route path="/projects" element={<Projects />} />
-                            <Route path="/projects/goldenspan-engineering" element={<GoldenSpanEngineering />} />
-                            <Route path="/projects/voltlogic-solutions" element={<VoltLogicSolutions />} />
+                            <Route path="/projects/master-thesis" element={<MasterThesis />} />
+                            <Route path="/projects/vst-architecture" element={<VSTArchitecture />} />
+                            <Route path="/projects/f-vespa" element={<FVESPA />} />
+                            <Route path="/projects/line-tracking-robot" element={<LineTrackingRobot />} />
+                            <Route path="/projects/dual-slip" element={<DualSLIP />} />
+                            <Route path="/projects/ankle-prosthesis" element={<AnkleProsthesis />} />
                             <Route path="/hobbies" element={<Hobbies />} />
                             <Route path="/hobbies/jazz-saxophone" element={<JazzSaxophone />} />
                             <Route path="/hobbies/collecting-records" element={<CollectingRecords />} />

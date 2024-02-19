@@ -19,9 +19,7 @@ function Home () {
                             , where my main research focuses on achieving <strong>robust and stable locomotion over compliant terrains</strong>, with applications to lower-limb prostheses and bipedal robots.
                             Please feel welcome to look around and feel free to reach out via the contact links below.
                         </span>
-                        <br />
-                        <br />
-                        <div className="row">
+                        <div className="row mt-5">
                             <div className="col-md-5">
                                 <h3 className="fw-bold">Interests</h3>
                                 <ul className="ul-interests mb-0">

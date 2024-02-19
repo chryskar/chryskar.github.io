@@ -13,7 +13,7 @@ function PhdUD() {
                 </span>
 
                 <h3 className="fw-medium m-3">Coursework</h3>
-                <span className="text-body">
+                <span className="text-body m-3">
                     <ul className="">
                         <li>Advanced Nonlinear Control</li>
                         <li>Linear Feedback Control Design</li>
@@ -61,7 +61,7 @@ function PhdUD() {
                 </span>
 
                 <h3 className="fw-medium m-3">Teaching Assistant</h3>
-                <span className="text-body">
+                <span className="text-body m-3">
                     During the Spring semester of 2023, I acted as a teaching assistant for the undergraduate level course "MEEG211-010: Dynamics" with Professor Alexander De Rosa.
                     My tasks included grading homeworks, exams and projects, holding office hours, as well as hosting weekly discussions sessions.
                 </span>

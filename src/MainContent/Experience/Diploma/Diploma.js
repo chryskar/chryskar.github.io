@@ -6,17 +6,20 @@ function Diploma() {
 
                 <h2 className="fw-bold m-3">Diploma (B.Sc. & M.Sc.) in Electrical and Computer Engineering</h2>
 
-                I received my diploma degree (B.Sc. & M.Sc.) from the School of Electrical and Computer Engineering (ECE) of the National Technical University of Athens (NTUA), in Greece, in 2019.
-
-                During the first three years of my diploma studies, I explored the interdisciplinary curriculum of ECE, which equipped me with all the essential background to pursue any germane career.
-                Later on, I was captivated by the fields of Automatic Control and Computer Science, which led me to major in Electronics and Systems, where I acquainted myself with Computer Systems, Signal Processing, Control System Design and, of course, Robotics.
-
-                In the end, I graduated with the highest honors (9.02/10 - Top 5\%), after excelling in an extensive course load (64 courses in total), including four additional to my degree courses that further broadened my education.
-                It should be noted that I ranked 18th among the 290 ECE graduates of 2019 (Top 6\%), while I was ranked 136th among the 250 ECE admitted students of 2013 (Top 55\%)
-
+                <span className="text-body mx-3 my-2">
+                    I received my diploma degree (B.Sc. & M.Sc.) from the School of Electrical and Computer Engineering (ECE) of the National Technical University of Athens (NTUA), in Greece, in 2019.
+               </span>
+                <span className="text-body mx-3 my-2">
+                    During the first three years of my diploma studies, I explored the interdisciplinary curriculum of ECE, which equipped me with all the essential background to pursue any germane career.
+                    Later on, I was captivated by the fields of Automatic Control and Computer Science, which led me to major in Electronics and Systems, where I acquainted myself with Computer Systems, Signal Processing, Control System Design and, of course, Robotics.
+                </span>
+                <span className="text-body mx-3 my-2">
+                    In the end, I graduated with the highest honors (9.02/10 - Top 5%), after excelling in an extensive course load (64 courses in total), including four additional to my degree courses that further broadened my education.
+                    I ranked 18th among the 290 ECE graduates of 2019 (Top 6%), while I was ranked 136th among the 250 ECE admitted students of 2013 (Top 55%).
+                </span>
                 <h3 className="fw-medium m-3">Selected Coursework</h3>
 
-                <span className="text-body">
+                <span className="text-body m-3">
                     <ul className="">
                         <li>Control Systems Design</li>
                         <li>Advanced Methods for Control Systems</li>
@@ -31,7 +34,7 @@ function Diploma() {
                         <li>Computer Architecture</li>
                         <li>Operating Systems</li>
                     </ul>
-                     </span>
+                 </span>
 
                 <h3 className="fw-medium m-3">Master Thesis</h3>
 
