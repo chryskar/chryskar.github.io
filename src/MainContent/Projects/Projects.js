@@ -2,8 +2,8 @@ import laelaps from "./img/laelapsII.jpg";
 import vst from "./img/vicon_mocap.jpg";
 import foot_strike from "./img/foot-strike.png";
 import line_tracking_robot from "./img/front_view_robot.jpg";
-import dual_slip from "./img/dual_slip.jpg"
-import ankle_prosthesis from "./img/IROS23_1579_graphical_abstract.jpg"
+import dual_slip from "./DualSLIP/img/dual_slip.jpg"
+import ankle_prosthesis from "./AnkleProsthesis/img/IROS23_1579_graphical_abstract.jpg"
 import personal_webpage from "./img/personal_webpage.png"
 import {Link} from "react-router-dom";
 

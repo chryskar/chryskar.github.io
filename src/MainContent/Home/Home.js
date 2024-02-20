@@ -1,5 +1,5 @@
 import './Home.css'
-import ChrisakosImage from './PXL_20220918_013608740.jpg'
+import ChrisakosImage from './chrys_back_blur.png'
 
 function Home () {
     return (

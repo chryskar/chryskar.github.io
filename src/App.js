@@ -9,6 +9,7 @@ import TeachingAssistant from "./MainContent/Experience/TeachingAssistant/Teachi
 import JnJIntern from "./MainContent/Experience/JnJIntern/JnJIntern"
 import ResearchAssistant from "./MainContent/Experience/ResearchAssistant/ResearchAssistant";
 import JazzSaxophone from "./MainContent/Hobbies/JazzSaxophone/JazzSaxophone";
+import Circus from "./MainContent/Hobbies/Circus/Circus";
 import Layout from "./Layout";
 import Publications from "./MainContent/Publications/Publications";
 import CollectingRecords from "./MainContent/Hobbies/CollectingRecords/CollectingRecords";
@@ -20,6 +21,7 @@ import FVESPA from "./MainContent/Projects/FVESPA/FVESPA";
 import DualSLIP from "./MainContent/Projects/DualSLIP/DualSLIP";
 import AnkleProsthesis from "./MainContent/Projects/AnkleProsthesis/AnkleProsthesis";
 import LineTrackingRobot from "./MainContent/Projects/LineTrackingRobot/LineTrackingRobot";
+import PersonalWebpage from "./MainContent/Projects/PersonalWebpage/PersonalWebpage";
 
 function App() {
     return (
@@ -41,9 +43,11 @@ function App() {
                             <Route path="/projects/vst-architecture" element={<VSTArchitecture />} />
                             <Route path="/projects/f-vespa" element={<FVESPA />} />
                             <Route path="/projects/line-tracking-robot" element={<LineTrackingRobot />} />
+                            <Route path="/projects/personal-webpage" element={<PersonalWebpage />} />
                             <Route path="/projects/dual-slip" element={<DualSLIP />} />
                             <Route path="/projects/ankle-prosthesis" element={<AnkleProsthesis />} />
                             <Route path="/hobbies" element={<Hobbies />} />
+                            <Route path="/hobbies/circus" element={<Circus />} />
                             <Route path="/hobbies/jazz-saxophone" element={<JazzSaxophone />} />
                             <Route path="/hobbies/collecting-records" element={<CollectingRecords />} />
                             <Route path="/publications" element={<Publications />} />
