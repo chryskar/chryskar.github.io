@@ -73,8 +73,8 @@ function FVESPA() {
 
                 <span className="text-body mx-3">
                         <ul className="mx-3">
-                            <li>Chrysostomos Karakasis and Panagiotis Artemiadis, “Real-time kinematic-based detection of foot-strike during walking,” Journal of Biomechanics, vol. 129, p. 110849, 2021. <a href="https://doi.org/10.1109/IROS51168.2021.9636335" target="_blank" rel="noopener noreferrer" style={{marginRight: '0px'}}> 10.1109/IROS51168.2021.9636335</a></li>
-                            <li>Chrysostomos Karakasis and Panagiotis Artemiadis, “F-VESPA: A Kinematic-based Algorithm for Real-time Heel-strike Detection During Walking,” in 2021 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), pp. 5098-5103 2021. <a href="https://doi.org/10.1109/IROS55552.2023.10341783" target="_blank" rel="noopener noreferrer" style={{marginRight: '0px'}}> https://doi.org/10.1109/IROS55552.2023.10341783</a></li>
+                            <li>Chrysostomos Karakasis and Panagiotis Artemiadis, “Real-time kinematic-based detection of foot-strike during walking,” Journal of Biomechanics, vol. 129, p. 110849, 2021. <a href="https://doi.org/10.1016/j.jbiomech.2021.110849" target="_blank" rel="noopener noreferrer" style={{marginRight: '0px'}}> 10.1016/j.jbiomech.2021.110849</a></li>
+                            <li>Chrysostomos Karakasis and Panagiotis Artemiadis, “F-VESPA: A Kinematic-based Algorithm for Real-time Heel-strike Detection During Walking,” in 2021 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), pp. 5098-5103 2021. <a href="https://doi.org/10.1109/IROS51168.2021.9636335" target="_blank" rel="noopener noreferrer" style={{marginRight: '0px'}}> 10.1109/IROS51168.2021.9636335</a></li>
                         </ul>
                   </span>
 

@@ -65,6 +65,14 @@ function MasterThesis() {
                     <a href="https://github.com/chryskar/karakasis2020exploiting" target="_blank" rel="noopener noreferrer" style={{marginRight: '0px'}}> here</a>.
                 </span>
 
+                <h3 className="fw-medium m-3">References:</h3>
+
+                <span className="text-body mx-3">
+                        <ul className="mx-3">
+                            <li>Karakasis, Chrysostomos, Konstantinos Machairas, Charalampos Marantos, Iosif S. Paraskevas, Evangelos Papadopoulos, and Dimitrios Soudris. "Exploiting the SoC FPGA Capabilities in the Control Architecture of a Quadruped Robot." In 2020 IEEE/ASME International Conference on Advanced Intelligent Mechatronics (AIM), pp. 501-507. IEEE, 2020. <a href="https://doi.org/10.1109/AIM43001.2020.9159012" target="_blank" rel="noopener noreferrer" style={{marginRight: '0px'}}> 10.1109/AIM43001.2020.9159012</a></li>
+                        </ul>
+                  </span>
+
             </div>
         </div>
     )
