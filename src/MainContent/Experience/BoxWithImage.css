@@ -1,9 +1,9 @@
 /* BoxWithImage.css */
 :root{
     --background: #2b2a33;
-    --maintext: white;
+    --maintext: black;
     --accent1: #45a3ff;
-    --cardBG: black;
+    --cardBG: white;
     --cardshadow: #111;
     --cardtext: black;
     --socialbrightness: 100%;
@@ -39,7 +39,7 @@
     /*    border: 2px solid black;*/
 
     position: relative;
-    color: white;
+    color: black;
     transition: .3s;
     display: flex;
     background-color: var(--cardBG);
@@ -50,6 +50,7 @@
     /*    filter: brightness(70%);*/
     width: 330px;
     height: 300px;
+    color: white;
     /*    border-radius: 15px;*/
 }
 
