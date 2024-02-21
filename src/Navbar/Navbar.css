@@ -7,7 +7,7 @@
     /*filter: brightness(250%);*/
 }
 
-@media (max-width: 576px) {
+@media (max-width: 800px) {
     .h4 {
         font-size: 1.125rem !important;
     }
