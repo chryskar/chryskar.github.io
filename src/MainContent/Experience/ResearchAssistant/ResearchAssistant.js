@@ -1,3 +1,5 @@
+import {Link} from "react-router-dom";
+
 function ResearchAssistant() {
     return (
         <div>
@@ -9,30 +11,48 @@ function ResearchAssistant() {
 
                 <span className="text-body m-3">
                     My research focuses on achieving stable and robust bipedal locomotion over compliant terrains, with applications to lower-limb prostheses and bipedal robots.
-                    Overall, my research has produced excellent results and led to five publications at prestigious conferences (IEEE IROS, IEEE MED) and journals (Journal of Biomechanics, ASME Journal of Dynamic Systems, Measurement, and Control).
+                    Overall, my research has produced excellent results and led to five <Link to="../publications" className="clickable" style={{marginRight: '0px' }}>publications</Link> at prestigious conferences (IEEE IROS, IEEE MED) and journals (Journal of Biomechanics, ASME Journal of Dynamic Systems, Measurement, and Control).
                     <ol className="m-3">
-                        <li className="mb-3"><span className="fw-medium">Improving Walking Stability of Ankle-Foot Prostheses across Compliant Terrains</span>
+                        <li className="mb-3">
+                            {/*<Link to="../projects/ankle-prosthesis" className="mb-3 clickable">*/}
+                                <span className="fw-medium">Improving Walking Stability of Ankle-Foot Prostheses across Compliant Terrains</span>
+                            {/*</Link>*/}
                             <br />
                             Conducted gait experiments with three subjects on VST 2 to test the effect of adjusting the quasi-stiffness of an ankle-foot prosthesis across various compliant terrains.
                         </li>
-                        <li className="mb-3"><span className="fw-medium">The Variable Stiffness Treadmill (VST) 2.0: Development and Validation of a Unique Tool to Investigate Locomotion on Compliant Terrains</span>
+                        <li className="mb-3">
+                            {/*<Link to="../projects/vst-architecture" className="mb-3 clickable">*/}
+                                <span className="fw-medium">The Variable Stiffness Treadmill (VST) 2.0: Development and Validation of a Unique Tool to Investigate Locomotion on Compliant Terrains</span>
+                            {/*</Link>*/}
                             <br />
                             Analyzed the system response of the new VST 2 treadmill to extract an accurate mapping between the position of Variable Stiffness Mechanism (VSM) and the effective stiffness of the treadmill.
                             Implemented the F-VESPA foot-strike algorithm in OOP C++, as part of the new software architecture for VST 2.
                         </li>
-                        <li className="mb-3"><span className="fw-medium">An Energy-Based Framework for Robust Dynamic Bipedal Walking Over Compliant Terrain</span>
+                        <li className="mb-3">
+                            <Link to="../projects/dual-slip" className="mb-3 clickable">
+                                <span className="fw-medium">An Energy-Based Framework for Robust Dynamic Bipedal Walking Over Compliant Terrain</span>
+                            </Link>
                             <br />
                             Proposed a novel energy-based framework utilizing a 3D bipedal model that allows the dynamic locomotion of bipeds across a wide range of compliant surfaces.
                         </li>
-                        <li className="mb-3"><span className="fw-medium">Adjusting the Quasi-Stiffness of an Ankle-Foot Prosthesis Improves Walking Stability during Locomotion over Compliant Terrain</span>
+                        <li className="mb-3">
+                            <Link to="../projects/ankle-prosthesis" className="mb-3 clickable">
+                                <span className="fw-medium">Adjusting the Quasi-Stiffness of an Ankle-Foot Prosthesis Improves Walking Stability during Locomotion over Compliant Terrain</span>
+                            </Link>
                             <br />
                             Designed a continuous admittance controller that adjusts the ankle quasi-stiffness of a powered ankle-foot prosthesis and improves gait stability during locomotion over compliant terrain.
                         </li>
-                        <li className="mb-3"><span className="fw-medium">Robust Dynamic Walking for a 3D Dual-SLIP Model under One-Step Unilateral Stiffness Perturbations: Towards Bipedal Locomotion over Compliant Terrain</span>
+                        <li className="mb-3">
+                            <Link to="../projects/dual-slip" className="mb-3 clickable">
+                                <span className="fw-medium">Robust Dynamic Walking for a 3D Dual-SLIP Model under One-Step Unilateral Stiffness Perturbations: Towards Bipedal Locomotion over Compliant Terrain</span>
+                            </Link>
                             <br />
                             Proposed a novel biomechanics-inspired controller that adjusts the stiffness of the legs in support for robust and dynamic bipedal locomotion over compliant terrains.
                         </li>
-                        <li className="mb-3"><span className="fw-medium">F-VESPA: A Kinematic-based Algorithm for Real-time Foot-strike Detection During Walking</span>
+                        <li className="mb-3">
+                            <Link to="../projects/f-vespa" className="mb-3 clickable">
+                                <span className="fw-medium">F-VESPA: A Kinematic-based Algorithm for Real-time Foot-strike Detection During Walking</span>
+                            </Link>
                             <br />
                             Developed and implemented a novel kinematic data-based algorithm for real-time foot-strike detection.
                         </li>
