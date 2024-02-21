@@ -1,3 +1,4 @@
+import {Link} from "react-router-dom";
 
 function Diploma() {
     return (
@@ -15,7 +16,7 @@ function Diploma() {
                 </span>
                 <span className="text-body mx-3 my-2">
                     In the end, I graduated with the highest honors (9.02/10 - Top 5%), after excelling in an extensive course load (64 courses in total), including four additional to my degree courses that further broadened my education.
-                    I ranked 18th among the 290 ECE graduates of 2019 (Top 6%), while I was ranked 136th among the 250 ECE admitted students of 2013 (Top 55%).
+                    I ranked 19th among the 290 ECE graduates of 2019 (Top 6%), while I was ranked 136th among the 250 ECE admitted students of 2013 (Top 55%).
                 </span>
                 <h3 className="fw-medium m-3">Selected Coursework</h3>
 
@@ -39,7 +40,17 @@ function Diploma() {
                 <h3 className="fw-medium m-3">Master Thesis</h3>
 
                 <span className="text-body m-3">
-                    Through this collaboration, I decided to realize my master thesis ``Implementation of Quadruped Robot's Motion Control on SoC FPGA", in the context of a cooperation between the <a href="https://microlab.ntua.gr/" target="_blank" rel="noopener noreferrer" style={{marginRight: '0px' }}> (MicroLab)</a> and the Control Systems Lab <a href="https://csl-ep.mech.ntua.gr/" target="_blank" rel="noopener noreferrer" style={{marginRight: '0px' }}> (CSL-EP)</a>. Both of my supervisors, Prof. Dimitrios Soudris and Prof. Evangelos Papadopoulos \break inspired me to initiate a collaborative research between the two different scientific fields on a unprecedented venture.
+                    Amongst all the aforementioned courses, I would have to distinguish "Digital VLSI Systems" (Dimitrios Soudris & Kiamal Pekmestzi) of the
+                    <a href="https://microlab.ntua.gr/" target="_blank" rel="noopener noreferrer" style={{marginRight: '0px'}}> MicroLab</a>
+                    , not only due to the fact that it introduced me to the intriguing and innovative concept of the FPGAs, but also for the reason that within its context,
+                    I had the privilege to be selected from a pool of applicants for the workshop "Object oriented methods for the modeling of kinematical chains with
+                    application to robotic and human walking", held in the University of Duisburg-Essen, Germany (2017).
+
+                    Through this collaboration, I decided to realize my master thesis
+                    <Link to="../projects/master-thesis" className="mb-3 clickable" style={{marginRight: '0px'}}>
+                        <span className="fw-medium"> "Implementation of Quadruped Robot's Motion Control on SoC FPGA"</span>
+                    </Link>
+                    , in the context of a cooperation between the <a href="https://microlab.ntua.gr/" target="_blank" rel="noopener noreferrer" style={{marginRight: '0px' }}> (MicroLab)</a> and the Control Systems Lab <a href="https://csl-ep.mech.ntua.gr/" target="_blank" rel="noopener noreferrer" style={{marginRight: '0px' }}> (CSL-EP)</a>.
                 </span>
 
             </div>
