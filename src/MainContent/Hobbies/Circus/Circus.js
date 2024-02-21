@@ -5,15 +5,15 @@ import juggling from "./img/ethnikos_kipos_circus.jpg"
 function Circus() {
     return (
         <div>
-            <div className="container d-flex flex-column">
+            <div className="container d-flex flex-column px-5">
 
-                <h2 className="fw-bold m-3">Circus, Clowning and Acrobatics</h2>
+                <h2 className="fw-bold mY-3">Circus, Clowning and Acrobatics</h2>
 
                 <div style={{ display: 'flex', justifyContent: 'space-around', alignItems: 'center' }}>
                     <iframe className="m-3" width="560" height="315" src="https://www.youtube.com/embed/on04rI9Si7A?si=5SEHXWJP9qwj_f8j" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
                 </div>
 
-                <span className="text-body m-3">
+                <span className="text-body my-3">
                     During the second year of my undergraduate studies, I felt a strong urge to focus on aspects of my life besides higher education and
                     as a result I decided to enroll in the circus school of Athens <a href="https://www.instagram.com/circusdayz/" target="_blank" rel="noopener noreferrer" style={{marginRight: '0px'}}> "Circus Dayz"</a>, where I studied for three years the circus arts of juggling,
                     acrobatics and equilibristics (unicycling, rola bola). Soon after, I became a member of the school's exhibition group and as a result I participated
@@ -30,10 +30,10 @@ function Circus() {
                     {/*Through these memorable experiences, I managed to visit four foreign countries, where above all I made some great friends from all around the world, while stepping out of my comfort zone made me independent and broadminded.                */}
                 </span>
 
-                <div style={{ display: 'flex', justifyContent: 'space-around', alignItems: 'center' }}>
-                    <img src={refugee_photo} alt="Logo 2" className="section-logo m-2" style={{ height: '300px', width: 'auto' }} />
-                    <img src={unicycle} alt="Logo 2" className="section-logo m-2" style={{ height: '300px', width: 'auto' }} />
-                    <img src={juggling} alt="Logo 2" className="section-logo m-2" style={{ height: '300px', width: 'auto' }} />
+                <div style={{ display: 'flex', justifyContent: 'space-around', alignItems: 'center', flexWrap: 'wrap' }}>
+                    <img src={refugee_photo} alt="Logo 2" className="section-logo m-2" style={{ maxHeight: '300px', width: 'auto', maxWidth: '100%' }} />
+                    <img src={unicycle} alt="Logo 2" className="section-logo m-2" style={{ maxHeight: '300px', width: 'auto', maxWidth: '100%' }} />
+                    <img src={juggling} alt="Logo 2" className="section-logo m-2" style={{ maxHeight: '300px', width: 'auto', maxWidth: '100%' }} />
                 </div>
 
                 <div style={{ display: 'flex', justifyContent: 'space-around', alignItems: 'center' }}>

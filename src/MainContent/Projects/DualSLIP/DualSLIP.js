@@ -5,13 +5,13 @@ import snapshots from "./img/snapshots_30kN_transp_crop.png"
 function FVESPA() {
     return (
         <div>
-            <div className="container d-flex flex-column">
+            <div className="container d-flex flex-column justify-content-center px-5">
 
-                <h2 className="fw-bold m-3">3D Dual Spring-Loaded Inverted Pendulum (SLIP) Model</h2>
+                <h2 className="fw-bold my-3">3D Dual Spring-Loaded Inverted Pendulum (SLIP) Model</h2>
 
-                <h3 className="fw-medium m-3">Project Scope and Achievements</h3>
+                <h3 className="fw-medium my-3">Project Scope and Achievements</h3>
 
-                <span className="text-body m-3">
+                <span className="text-body my-3">
                     Bipedal locomotion over compliant terrain is an important and largely underexplored problem in the robotics community.
                     Although robot walking has been achieved on some non-rigid surfaces with existing control methodologies, there is a need for a systematic
                     framework applicable to different bipeds that enables stable locomotion over various compliant terrains.
@@ -26,9 +26,9 @@ function FVESPA() {
                     controllers for lower-limb prostheses with adjustable stiffness to improve their robustness over compliant surfaces.
                 </span>
 
-                <div style={{ display: 'flex', justifyContent: 'space-around', alignItems: 'center' }}>
-                    <img src={dual_slip} alt="Logo 2" className="section-logo m-2" style={{ height: '300px', width: 'auto' }} />
-                    <img src={gait_events} alt="Logo 2" className="section-logo m-2" style={{ height: '300px', width: 'auto' }} />
+                <div style={{ display: 'flex', justifyContent: 'space-around', alignItems: 'center', flexWrap: 'wrap' }}>
+                    <img src={dual_slip} alt="Logo 2" className="section-logo m-2" style={{ maxHeight: '300px', width: 'auto', maxWidth: '100%' }} />
+                    <img src={gait_events} alt="Logo 2" className="section-logo m-2" style={{ maxHeight: '300px', width: 'auto', maxWidth: '100%' }} />
                 </div>
 
                 <span className="text-body m-3">
@@ -51,16 +51,16 @@ function FVESPA() {
                 the 1-step perturbation.
                 </span>
 
-                <div style={{ display: 'flex', justifyContent: 'space-around', alignItems: 'center' }}>
-                    <img src={bioinspired} alt="Logo 2" className="section-logo m-2" style={{ height: '300px', width: 'auto' }} />
-                    <img src={snapshots} alt="Logo 2" className="section-logo m-2" style={{ height: '300px', width: 'auto' }} />
+                <div style={{ display: 'flex', justifyContent: 'space-around', alignItems: 'center', flexWrap: 'wrap' }}>
+                    <img src={bioinspired} alt="Logo 2" className="section-logo m-2" style={{ height: '300px', width: 'auto', maxWidth: '100%' }} />
+                    <img src={snapshots} alt="Logo 2" className="section-logo m-2" style={{ height: '300px', width: 'auto', maxWidth: '100%' }} />
                 </div>
 
                 <span className="text-body m-3">
                     The videos below demonstrate the 3D Dual-SLIP model experiencing single and repeated one-step unilateral stiffness perturbations in simulation.
                 </span>
 
-                <div style={{ display: 'flex', justifyContent: 'space-around', alignItems: 'center' }}>
+                <div style={{ display: 'flex', justifyContent: 'space-around', alignItems: 'center', flexWrap: 'wrap' }}>
                     <iframe className="m-3" width="560" height="315" src="https://www.youtube.com/embed/xKRRyGAfvzs?si=EXV3EYcBvhv6w4cX" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
                     <iframe className="m-3" width="560" height="315" src="https://www.youtube.com/embed/IfyqaeqL3dc?si=h1nMp8-Ev5lV-jsp" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                             allowFullScreen></iframe>

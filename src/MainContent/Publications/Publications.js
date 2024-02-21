@@ -29,7 +29,7 @@ function Publications() {
 
     return (
         <div>
-            <div className="d-flex flex-column align-items-center">
+            <div className="d-flex flex-column align-items-center mx-5">
                 <h1 className="fw-bold">Publications</h1>
                 <div style={{ marginBottom: "1em" }} /> {/* Empty line */}
 

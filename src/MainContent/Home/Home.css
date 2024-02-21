@@ -1,14 +1,14 @@
 .main-image {
-    height: 300px;
-    width: 300px;
-    border-radius: 50%;
+    max-height: 350px;
+    /*width: 300px;*/
+    clip-path: circle();
     filter: drop-shadow(1px 1px 5px hsl(0, 0%, 75%));
 }
 
 @media (min-width: 800px) {
     .main-image {
-        height: 500px;
-        width: 500px;
+        max-height: 500px;
+        /*width: 500px;*/
     }
 }
 

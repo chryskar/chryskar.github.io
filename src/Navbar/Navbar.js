@@ -3,7 +3,7 @@ import './Navbar.css'
 
 function Navbar() {
     return (
-        <div className="d-flex justify-content-center align-items-center my-5 mx-3">
+        <div className="d-flex flex-wrap justify-content-center align-items-center my-5 mx-3">
             <NavLink to={"/home"} className={"custom-nav-link clickable"}>
                 <h4 className="mx-3 h4">Home</h4>
             </NavLink>
