@@ -11,12 +11,12 @@ function JnJIntern() {
                     Over the summer of 2022, I was fortunate to complete an internship at Johnson & Johnson Robotics and Digital Solutions, under the mentorship of Michael Dermksian and the supervision of Douglas Spencer Maughan.
 
                     <br/><br/>
-                    During my internship, I designed and implemented a hard-stop handling algorithm to prevent overloading in a cable-driven surgical instrument wrist.
+                    During my internship, I designed, implemented, and evaluated a hard-stop handling method to prevent overloading in cable-driven continuum wrists.
                     The algorithm operated in the configuration-space, where a pair of admittance controllers calculated an appropriate set of position offsets for the two available degrees of freedom of the wrist.
                     Specifically, the following contributions were made:
                     <ul className="m-3">
                         <li>Tuning the models of the admittance controllers and validating the algorithm in simulation using MATLAB.</li>
-                        <li>Implementing the algorithm in OOP C++.</li>
+                        <li>Implementing the algorithm in OOP C++ and contributed code to production C++ robotics code-base.</li>
                         <li>Testing on an actual wrist, yielding the desired behavior of active back-driving.</li>
                     </ul>
 

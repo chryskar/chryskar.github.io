@@ -1,7 +1,8 @@
 .main-image {
     max-height: 350px;
     /*width: 300px;*/
-    clip-path: circle();
+    /*clip-path: circle();*/
+    border-radius: 15px; /* Adjust the value to control the roundness */
     filter: drop-shadow(1px 1px 5px hsl(0, 0%, 75%));
 }
 
