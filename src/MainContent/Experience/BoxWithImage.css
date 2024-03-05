@@ -37,7 +37,7 @@
     text-align: center;
     /*    border-radius: 15px;*/
     /*    border: 2px solid black;*/
-
+    overflow: hidden;
     position: relative;
     color: black;
     transition: .3s;
@@ -50,16 +50,17 @@
     /*    filter: brightness(70%);*/
     width: 310px;
     height: 310px;
-    color: white;
+    color: black;
+    overflow: clip;
     /*    border-radius: 15px;*/
 }
 
 .card:hover{
-    filter: brightness(125%);
+    filter: brightness(100%);
 }
 
 .card-image{
-    width: 90%;
+    width: 280px;
     /*    border-radius: 15px;*/
     position: absolute;
     top: 55%;
@@ -74,20 +75,17 @@
     top: 15%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 25px;
-    width: 320px;
+    width: 310px;
+    font-size: 23px;
+    color: var(--maintext);
 }
 
 .card-subtext{
-    color: var(--cardtext);
+    color: black;
     position: absolute;
     top: 90%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 16px;
     width: 240px;
-}
-
-.card-title {
-    font-size: 23px;
 }

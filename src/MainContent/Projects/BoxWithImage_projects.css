@@ -1,0 +1,124 @@
+
+.card-projects{
+    width: 310px;
+    height: 310px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /*    border-radius: 15px;*/
+    /*    border: 2px solid black;*/
+    overflow: hidden;
+    position: relative;
+    color: black;
+    transition: .3s;
+    display: flex;
+    background-color: var(--background);
+    border-radius: 15px; /* Adjust the value to control the roundness */
+}
+
+.card-image-container-projects{
+    /*    filter: brightness(70%);*/
+    width: 310px;
+    height: 310px;
+    color: white;
+    overflow: hidden;
+    /*    border-radius: 15px;*/
+}
+
+.card-image-projects{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    filter: opacity(35%)
+    /*    width: 250px;*/
+    /*    border: 2px solid black;*/
+}
+
+.card-title-projects{
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 295px;
+    font-size: 23px;
+    color: white;
+}
+
+.card-subtext-projects{
+    color: white;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 16px;
+    width: 240px;
+}
+
+#prosthesis{
+    position: absolute;
+    height: 100%;
+    width: auto;
+    top: 50%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+}
+
+#personal-webpage{
+    position: absolute;
+    height: 100%;
+    width: auto;
+    top: 53%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+    filter: opacity(70%);
+}
+
+#dual_slip{
+    position: absolute;
+    height: 105%;
+    width: auto;
+    top: 50%;
+    left: 53%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+    filter: opacity(20%);
+}
+
+#VST{
+    position: absolute;
+    height: 105%;
+    width: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+}
+
+#soc_fpga{
+    position: absolute;
+    height: 105%;
+    width: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+}
+
+#prosthesis{
+    position: absolute;
+    width: 100%;
+    height: auto;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+    filter: opacity(40%);
+}
+
+#dual_slip-container{
+     background-color: black;
+ }
