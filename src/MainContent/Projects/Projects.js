@@ -73,7 +73,7 @@ function Projects () {
                         <div className="card-shadow">
                             <div className="card-projects">
                                 <div className="card-image-container">
-                                    <img className="card-image-projects" src={laelaps} id='' alt="HORC"/>
+                                    <img className="card-image-projects" src={laelaps} id='soc_fpga' alt="HORC"/>
                                 </div>
                                 <div className="card-title-projects fw-bold">SoC FPGA Architecture for Quadruped Robot</div>
                                 <div className="card-subtext-projects fw-bold">2018-2019</div>

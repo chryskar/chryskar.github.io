@@ -1,3 +1,4 @@
+/* BoxWithImage_projects.css */
 
 .card-projects{
     width: 310px;
@@ -9,7 +10,7 @@
     /*    border: 2px solid black;*/
     overflow: hidden;
     position: relative;
-    color: black;
+    color: white;
     transition: .3s;
     display: flex;
     background-color: var(--background);
@@ -22,11 +23,10 @@
     height: 310px;
     color: white;
     overflow: hidden;
-    /*    border-radius: 15px;*/
 }
 
 .card-image-projects{
-    width: 100%;
+    width: 105%;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -100,8 +100,8 @@
 
 #soc_fpga{
     position: absolute;
-    height: 105%;
-    width: auto;
+    height: auto;
+    width: 100%;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);

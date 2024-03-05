@@ -24,9 +24,8 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    /*    border-radius: 15px;*/
     box-shadow: 5px 5px 20px var(--cardshadow);
-    border-radius: 15px; /* Adjust the value to control the roundness */
+    border-radius: 15px;
 }
 
 .card{
@@ -35,15 +34,12 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    /*    border-radius: 15px;*/
-    /*    border: 2px solid black;*/
-    overflow: hidden;
+    border-radius: 15px; /* auto edw to gamidi*/
     position: relative;
     color: black;
     transition: .3s;
     display: flex;
     background-color: var(--cardBG);
-    border-radius: 15px; /* Adjust the value to control the roundness */
 }
 
 .card-image-container{
@@ -51,8 +47,8 @@
     width: 310px;
     height: 310px;
     color: black;
-    overflow: clip;
-    /*    border-radius: 15px;*/
+    overflow: hidden;
+    border-radius: 15px;
 }
 
 .card:hover{
@@ -61,7 +57,6 @@
 
 .card-image{
     width: 280px;
-    /*    border-radius: 15px;*/
     position: absolute;
     top: 55%;
     left: 50%;
