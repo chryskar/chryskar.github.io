@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.bcd6bbdc.css",
-    "main.js": "/static/js/main.5bbaffd1.js",
+    "main.js": "/static/js/main.67043b23.js",
     "static/js/592.39fbeac9.chunk.js": "/static/js/592.39fbeac9.chunk.js",
     "static/media/IROS23_1579.mp4": "/static/media/IROS23_1579.38a7255ed3318ff208c7.mp4",
     "static/media/IROS23_1579_VI_i.mp4": "/static/media/IROS23_1579_VI_i.59abb79730678ce88020.mp4",
@@ -12,7 +12,6 @@
     "static/media/snapshots_30kN_transp_crop.png": "/static/media/snapshots_30kN_transp_crop.5430b41141c0e868daa8.png",
     "static/media/IROS23_1579_graphical_abstract.jpg": "/static/media/IROS23_1579_graphical_abstract.d57837e0074f93214998.jpg",
     "static/media/side_view_robot.jpg": "/static/media/side_view_robot.b4a3c5c602121ee5a53a.jpg",
-    "static/media/sax.png": "/static/media/sax.0eecd1d55f71bee056cc.png",
     "static/media/ethnikos_kipos_circus.jpg": "/static/media/ethnikos_kipos_circus.a6938254de53a2ffb70e.jpg",
     "static/media/front_view_robot.jpg": "/static/media/front_view_robot.8aafe00b4ae7626c9de8.jpg",
     "static/media/analysis_FVESPA_REAL_HS_sub_01_speed_01.png": "/static/media/analysis_FVESPA_REAL_HS_sub_01_speed_01.44d5fc227ee1340aa931.png",
@@ -26,7 +25,7 @@
     "static/media/MED22_gait_events_final.png": "/static/media/MED22_gait_events_final.2884fa5ac168e20ef507.png",
     "static/media/academicons.svg": "/static/media/academicons.c2f62710e847070d5e6c.svg",
     "static/media/boards.jpg": "/static/media/boards.578c199cc62259091fab.jpg",
-    "static/media/record.jpg": "/static/media/record.de9aaaa35eb17a558fa3.jpg",
+    "static/media/tatsuro_for_you.jpg": "/static/media/tatsuro_for_you.de9aaaa35eb17a558fa3.jpg",
     "static/media/personal_webpage.png": "/static/media/personal_webpage.94ca878d3fe06a4ff565.png",
     "static/media/angle_moment.png": "/static/media/angle_moment.59ebb56ea49ea915b669.png",
     "static/media/robot_with_boards.jpg": "/static/media/robot_with_boards.32063b3668c69cf29801.jpg",
@@ -37,17 +36,22 @@
     "static/media/academicons.woff": "/static/media/academicons.c8b8bfc0fed119707316.woff",
     "static/media/fa-brands-400.woff2": "/static/media/fa-brands-400.8d3cabfc66809162fb4d.woff2",
     "static/media/results_lyap_highlight_long_10_15_20Nmdeg_VT.png": "/static/media/results_lyap_highlight_long_10_15_20Nmdeg_VT.719c13f844e38658ca8a.png",
+    "static/media/bridge_rollins.jpg": "/static/media/bridge_rollins.71cb0e501c1fc225b3a1.jpg",
     "static/media/refugee_camp.jpg": "/static/media/refugee_camp.1c5efb9c8a30f6329afd.jpg",
     "static/media/laelapsII.jpg": "/static/media/laelapsII.1b4a9a047a556db163c0.jpg",
+    "static/media/record_robot_inky.jpg": "/static/media/record_robot_inky.6c0dfcceac5139a1a18f.jpg",
     "static/media/fa-regular-400.ttf": "/static/media/fa-regular-400.adc51aab4d771ab65f81.ttf",
     "static/media/vicon_mocap.jpg": "/static/media/vicon_mocap.57672f86ed54573b8dff.jpg",
+    "static/media/sextet.jpg": "/static/media/sextet.6a2f8cc228a8d6174bd0.jpg",
     "static/media/foot-strike.png": "/static/media/foot-strike.177cc03669a58f94ea29.png",
+    "static/media/left_right_evans.jpg": "/static/media/left_right_evans.e7b0b8d9ead44a7f6e87.jpg",
     "static/media/University of Delaware.png": "/static/media/University of Delaware.f16cb22587e89528a075.png",
     "static/media/academicons.eot": "/static/media/academicons.e8713c3132628422b2e5.eot",
     "static/media/academicons.ttf": "/static/media/academicons.4f700bbf66a5f360ce35.ttf",
     "static/media/control_diagram.png": "/static/media/control_diagram.726614abe03d326cae96.png",
     "static/media/HORC_Logo_LightBG.png": "/static/media/HORC_Logo_LightBG.2a4ab33fe008d04a777a.png",
     "static/media/FlowChart.png": "/static/media/FlowChart.0102e36cdf5329be6200.png",
+    "static/media/SAXOPHONE-PLAYER.jpg": "/static/media/SAXOPHONE-PLAYER.38e42063b8e296730128.jpg",
     "static/media/track2.png": "/static/media/track2.ca90881264100b0d284a.png",
     "static/media/fa-regular-400.woff2": "/static/media/fa-regular-400.e931bc0d14f5bbb1da22.woff2",
     "static/media/jjmedtech-logo-header.svg": "/static/media/jjmedtech-logo-header.fed8b024ca8033384397119037dd5b43.svg",
@@ -55,11 +59,11 @@
     "static/media/fa-v4compatibility.woff2": "/static/media/fa-v4compatibility.b3049b13a93f07e026fc.woff2",
     "index.html": "/index.html",
     "main.bcd6bbdc.css.map": "/static/css/main.bcd6bbdc.css.map",
-    "main.5bbaffd1.js.map": "/static/js/main.5bbaffd1.js.map",
+    "main.67043b23.js.map": "/static/js/main.67043b23.js.map",
     "592.39fbeac9.chunk.js.map": "/static/js/592.39fbeac9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.bcd6bbdc.css",
-    "static/js/main.5bbaffd1.js"
+    "static/js/main.67043b23.js"
   ]
 }
