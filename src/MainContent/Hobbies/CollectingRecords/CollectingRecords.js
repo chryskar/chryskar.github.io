@@ -1,3 +1,8 @@
+import LeftRight from './img/left_right_evans.jpg';
+import ForYou from './img/tatsuro_for_you.jpg';
+import Sextet from './img/sextet.jpg';
+import Bridge from './img/bridge_rollins.jpg';
+
 function CollectingRecords() {
     return (
         <div>
@@ -14,6 +19,22 @@ function CollectingRecords() {
                     Check out my collection on Discogs:
                     <a href="https://www.discogs.com/user/chrisfyt/collection" target="_blank" rel="noopener noreferrer" style={{marginRight: '0px' }}> https://www.discogs.com/user/chrisfyt/collection</a>.
                 </span>
+
+                <div className="container d-flex justify-content-center">
+                    <div className="m-3">
+                        <img src={LeftRight} alt="Record 1" style={{ height: '300px' }} />
+                    </div>
+                    <div className="m-3">
+                        <img src={ForYou} alt="Record 2" style={{ height: '300px' }} />
+                    </div>
+                    <div className="m-3">
+                        <img src={Sextet} alt="Record 3" style={{ height: '300px' }} />
+                    </div>
+                    <div className="m-3">
+                        <img src={Bridge} alt="Record 3" style={{ height: '300px' }} />
+                    </div>
+                </div>
+
 
             </div>
         </div>
