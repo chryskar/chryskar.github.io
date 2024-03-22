@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.bcd6bbdc.css",
-    "main.js": "/static/js/main.67043b23.js",
+    "main.js": "/static/js/main.ced9b19a.js",
     "static/js/592.39fbeac9.chunk.js": "/static/js/592.39fbeac9.chunk.js",
     "static/media/IROS23_1579.mp4": "/static/media/IROS23_1579.38a7255ed3318ff208c7.mp4",
     "static/media/IROS23_1579_VI_i.mp4": "/static/media/IROS23_1579_VI_i.59abb79730678ce88020.mp4",
@@ -29,7 +29,7 @@
     "static/media/personal_webpage.png": "/static/media/personal_webpage.94ca878d3fe06a4ff565.png",
     "static/media/angle_moment.png": "/static/media/angle_moment.59ebb56ea49ea915b669.png",
     "static/media/robot_with_boards.jpg": "/static/media/robot_with_boards.32063b3668c69cf29801.jpg",
-    "static/media/CV_Karakasis_2024.pdf": "/static/media/CV_Karakasis_2024.af29fd2b66c8bb906f94.pdf",
+    "static/media/CV_Karakasis_2024.pdf": "/static/media/CV_Karakasis_2024.455c0ea214f621029e84.pdf",
     "static/media/fa-brands-400.ttf": "/static/media/fa-brands-400.6205fd00fb1b573e9f0f.ttf",
     "static/media/fa-solid-900.woff2": "/static/media/fa-solid-900.fb8184add5a3101ad0a3.woff2",
     "static/media/unicyle.jpg": "/static/media/unicyle.6f5701887bd7dd14bf7c.jpg",
@@ -59,11 +59,11 @@
     "static/media/fa-v4compatibility.woff2": "/static/media/fa-v4compatibility.b3049b13a93f07e026fc.woff2",
     "index.html": "/index.html",
     "main.bcd6bbdc.css.map": "/static/css/main.bcd6bbdc.css.map",
-    "main.67043b23.js.map": "/static/js/main.67043b23.js.map",
+    "main.ced9b19a.js.map": "/static/js/main.ced9b19a.js.map",
     "592.39fbeac9.chunk.js.map": "/static/js/592.39fbeac9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.bcd6bbdc.css",
-    "static/js/main.67043b23.js"
+    "static/js/main.ced9b19a.js"
   ]
 }
