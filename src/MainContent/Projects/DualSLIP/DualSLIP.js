@@ -71,7 +71,7 @@ function FVESPA() {
 
                 <span className="text-body m-3">
                     The github repository for the MED 2022 work can be found
-                    <a href="https://gitfront.io/r/user-3868622/553762832d805371ce1b53ac150586e2b40c5bc1/karakasis-MED-2022/" target="_blank" rel="noopener noreferrer" style={{marginRight: '0px'}}> here</a>.
+                    <a href="https://github.com/HORC-Lab/MED_2022" target="_blank" rel="noopener noreferrer" style={{marginRight: '0px'}}> here</a>.
                 </span>
 
                 <h3 className="fw-medium m-3">References:</h3>

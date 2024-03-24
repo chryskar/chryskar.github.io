@@ -64,7 +64,7 @@ function FVESPA() {
                         {/*<li>Original offiline version in MATLAB <a href="https://jkes.eu/resources/html/article/details?id=614540&language=en" target="_blank" rel="noopener noreferrer" style={{marginRight: '0px'}}> 10.5604/01.3001.0053.9679</a></li>*/}
                         {/*<li>Refined offiline version in MATLAB <a href="https://jkes.eu/resources/html/article/details?id=614540&language=en" target="_blank" rel="noopener noreferrer" style={{marginRight: '0px'}}> 10.5604/01.3001.0053.9679</a></li>*/}
                         {/*<li>Real-time version in C++ for VST 1 <a href="https://jkes.eu/resources/html/article/details?id=614540&language=en" target="_blank" rel="noopener noreferrer" style={{marginRight: '0px'}}> 10.5604/01.3001.0053.9679</a></li>*/}
-                        <li>Real-time version in OOP C++ for VST 2 <a href="https://github.com/chryskar/OOP_CPP_F-VESPA" target="_blank" rel="noopener noreferrer" style={{marginRight: '0px'}}> (repo)</a>.</li>
+                        <li>Real-time version in OOP C++ for VST 2 <a href="https://github.com/HORC-Lab/OOP_F-VESPA" target="_blank" rel="noopener noreferrer" style={{marginRight: '0px'}}> (repo)</a>.</li>
                     </ul>
 
                  </span>
