@@ -2,6 +2,7 @@ import laelaps from "./img/laelapsII.jpg";
 import vst from "./img/vicon_mocap.jpg";
 import foot_strike from "./img/foot-strike.png";
 import line_tracking_robot from "./img/front_view_robot.jpg";
+import best_zebro_swarm from "./BestZebroSwarm/img/zebro.jpg";
 import dual_slip from "./img/dual_slip.jpg"
 import ankle_prosthesis from "./AnkleProsthesis/img/subject_front_view.jpg"
 import personal_webpage from "./img/personal_webpage.png"
@@ -92,8 +93,18 @@ function Projects () {
                                 <div className="card-subtext-projects fw-bold">2021</div>
                             </div>
                         </div>
+                    </Link>
 
-
+                    <Link to="best-zebro-swarm" className="d-flex flex-column align-items-center m-5 clickable" style={{ color: 'black' }}>
+                        <div className="card-shadow">
+                            <div className="card-projects">
+                                <div className="card-image-container">
+                                    <img className="card-image-projects" src={best_zebro_swarm} id='zebro' alt="HORC"/>
+                                </div>
+                                <div className="card-title-projects fw-bold">Swarm Robots</div>
+                                <div className="card-subtext-projects fw-bold">2018</div>
+                            </div>
+                        </div>
                     </Link>
 
                     <Link to="personal-webpage" className="d-flex flex-column align-items-center m-5 clickable" style={{ color: 'black' }}>
