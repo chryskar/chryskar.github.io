@@ -22,6 +22,7 @@ import DualSLIP from "./MainContent/Projects/DualSLIP/DualSLIP";
 import AnkleProsthesis from "./MainContent/Projects/AnkleProsthesis/AnkleProsthesis";
 import LineTrackingRobot from "./MainContent/Projects/LineTrackingRobot/LineTrackingRobot";
 import BestZebroSwarm from "./MainContent/Projects/BestZebroSwarm/BestZebroSwarm";
+import Duisburg from "./MainContent/Projects/Duisburg/Duisburg";
 import PersonalWebpage from "./MainContent/Projects/PersonalWebpage/PersonalWebpage";
 
 function App() {
@@ -45,6 +46,7 @@ function App() {
                             <Route path="/projects/f-vespa" element={<FVESPA />} />
                             <Route path="/projects/line-tracking-robot" element={<LineTrackingRobot />} />
                             <Route path="/projects/best-zebro-swarm" element={<BestZebroSwarm />} />
+                            <Route path="/projects/duisburg" element={<Duisburg />} />
                             <Route path="/projects/personal-webpage" element={<PersonalWebpage />} />
                             <Route path="/projects/dual-slip" element={<DualSLIP />} />
                             <Route path="/projects/ankle-prosthesis" element={<AnkleProsthesis />} />
