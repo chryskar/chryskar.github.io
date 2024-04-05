@@ -1,13 +1,16 @@
 {
   "files": {
     "main.css": "/static/css/main.e06d1852.css",
-    "main.js": "/static/js/main.707e16a4.js",
+    "main.js": "/static/js/main.c91dfdc0.js",
     "static/js/592.39fbeac9.chunk.js": "/static/js/592.39fbeac9.chunk.js",
     "static/media/IROS23_1579.mp4": "/static/media/IROS23_1579.38a7255ed3318ff208c7.mp4",
     "static/media/IROS23_1579_VI_i.mp4": "/static/media/IROS23_1579_VI_i.59abb79730678ce88020.mp4",
     "static/media/demo_FVESPA_OOP_CPP_comp.mp4": "/static/media/demo_FVESPA_OOP_CPP_comp.dd243bda30dbeaf9951a.mp4",
     "static/media/Fig_4_outline.png": "/static/media/Fig_4_outline.7fb40c1d21e484ecf2ac.png",
+    "static/media/DSC_0714.JPG": "/static/media/DSC_0714.63f27e9d471631b8d71e.JPG",
+    "static/media/DSC_0948.JPG": "/static/media/DSC_0948.16df733eebc3b64d5e09.JPG",
     "static/media/experiment_video_vaughn.mov": "/static/media/experiment_video_vaughn.811f60338b228aff4ad8.mov",
+    "static/media/DSC_0956.JPG": "/static/media/DSC_0956.d439d1ea8d0b50a8c182.JPG",
     "static/media/subject_front_view.jpg": "/static/media/subject_front_view.36afc0b0f034aa18d13a.jpg",
     "static/media/snapshots_30kN_transp_crop.png": "/static/media/snapshots_30kN_transp_crop.5430b41141c0e868daa8.png",
     "static/media/IROS23_1579_graphical_abstract.jpg": "/static/media/IROS23_1579_graphical_abstract.d57837e0074f93214998.jpg",
@@ -62,11 +65,11 @@
     "static/media/fa-v4compatibility.woff2": "/static/media/fa-v4compatibility.b3049b13a93f07e026fc.woff2",
     "index.html": "/index.html",
     "main.e06d1852.css.map": "/static/css/main.e06d1852.css.map",
-    "main.707e16a4.js.map": "/static/js/main.707e16a4.js.map",
+    "main.c91dfdc0.js.map": "/static/js/main.c91dfdc0.js.map",
     "592.39fbeac9.chunk.js.map": "/static/js/592.39fbeac9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e06d1852.css",
-    "static/js/main.707e16a4.js"
+    "static/js/main.c91dfdc0.js"
   ]
 }
