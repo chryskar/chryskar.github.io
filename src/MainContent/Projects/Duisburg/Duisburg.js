@@ -46,7 +46,8 @@ function Duisburg() {
                 {/*</span>*/}
 
                 <div style={{ display: 'flex', justifyContent: 'space-around', alignItems: 'center' }}>
-                <iframe className="m-3" width="560" height="315" src="https://youtu.be/PQ9qM3JjMS8" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+                <iframe className="m-3" width="560" height="315" src="https://www.youtube.com/embed/PQ9qM3JjMS8?si=JSeHzHpusfuU_Zj2" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin"
+                        allowFullScreen></iframe>
                 </div>
 
                 {/*<h3 className="fw-medium my-3">Detailed Information:</h3>*/}
