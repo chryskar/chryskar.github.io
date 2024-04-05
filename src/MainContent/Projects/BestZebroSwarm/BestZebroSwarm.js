@@ -5,9 +5,10 @@ function BestZebroSwarm() {
     return (
         <div>
             <div className="container d-flex flex-column px-5 px-md-0">
-
-                <h2 className="fw-bold my-3">Global Swarming, a Robotic Revolution (2018 BEST Spring Course at TU Delft)</h2>
-
+                <div className="text-center">
+                    <h2 className="fw-bold my-3">Global Swarming, a Robotic Revolution</h2>
+                    <h4 className="fw-normal">2018 BEST Spring Course at TU Delft</h4>
+                </div>
                 <h3 className="fw-medium my-3">Project Scope and Achievements</h3>
 
                 <span className="text-body my-3">

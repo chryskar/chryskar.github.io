@@ -1,6 +1,7 @@
 import Sax from "./img/SAXOPHONE-PLAYER.jpg";
 import Record from "./img/record_robot_inky.jpg";
 import Circus from "./Circus/img/refugee_camp.jpg"
+import Travel from "./img/vinyl-globe-animation.gif"
 import {Link} from "react-router-dom";
 
 function Hobbies () {
@@ -26,6 +27,13 @@ function Hobbies () {
                         <img src={Record} alt="Record img" className="section-logo m-2" style={{ width: 'auto', maxHeight: '250px', maxWidth: '100%'}}/>
                         <h4 className="fw-bold m-2">Collecting Records</h4>
                     </Link>
+
+                    <Link to="travelling" className="d-flex flex-column align-items-center m-5 clickable" style={{ color: 'black' }}>
+                        <img src={Travel} alt="Record img" className="section-logo m-2" style={{ width: 'auto', maxHeight: '250px', maxWidth: '100%'}}/>
+                        <h4 className="fw-bold m-2">Travelling</h4>
+                    </Link>
+
+
                 </div>
             </div>
         </div>

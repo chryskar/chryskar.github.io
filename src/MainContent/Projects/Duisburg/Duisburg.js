@@ -6,7 +6,12 @@ function Duisburg() {
         <div>
             <div className="container d-flex flex-column px-5 px-md-0">
 
-                <h2 className="fw-bold my-3">Object-oriented methods for the modeling of kinematical chains with application to robotic and human walking (2017 Workshop at University of Duisburg-Essen (UDE))</h2>
+                {/*<h2 className="fw-bold my-3">Object-oriented methods for the modeling of kinematical chains with application to robotic and human walking <span className="fw-normal float-end">2017 Workshop at University of Duisburg-Essen (UDE)</span></h2>*/}
+                <div className="text-center">
+                    <h2 className="fw-bold">Object-oriented methods for the modeling of kinematical chains</h2>
+                    <h2 className="fw-bold my-1">with application to robotic and human walking</h2>
+                    <h4 className="fw-normal">2017 Workshop at University of Duisburg-Essen (UDE)</h4>
+                </div>
 
                 <h3 className="fw-medium my-3">Project Scope and Achievements</h3>
 

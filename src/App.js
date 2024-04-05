@@ -24,7 +24,7 @@ import LineTrackingRobot from "./MainContent/Projects/LineTrackingRobot/LineTrac
 import BestZebroSwarm from "./MainContent/Projects/BestZebroSwarm/BestZebroSwarm";
 import Duisburg from "./MainContent/Projects/Duisburg/Duisburg";
 import PersonalWebpage from "./MainContent/Projects/PersonalWebpage/PersonalWebpage";
-
+import Travel from "./MainContent/Hobbies/Travel/Travel";
 function App() {
     return (
         <>
@@ -54,6 +54,7 @@ function App() {
                             <Route path="/hobbies/circus" element={<Circus />} />
                             <Route path="/hobbies/jazz-saxophone" element={<JazzSaxophone />} />
                             <Route path="/hobbies/collecting-records" element={<CollectingRecords />} />
+                            <Route path="/hobbies/travelling" element={<Travel />} />
                             <Route path="/publications" element={<Publications />} />
                             <Route path="*" element={<Navigate to="/" replace />} />
                         </Routes>
