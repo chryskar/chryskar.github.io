@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.e06d1852.css",
-    "main.js": "/static/js/main.7c89ebd6.js",
+    "main.js": "/static/js/main.d2b11fd0.js",
     "static/js/592.39fbeac9.chunk.js": "/static/js/592.39fbeac9.chunk.js",
     "static/media/IROS23_1579.mp4": "/static/media/IROS23_1579.38a7255ed3318ff208c7.mp4",
     "static/media/IROS23_1579_VI_i.mp4": "/static/media/IROS23_1579_VI_i.59abb79730678ce88020.mp4",
@@ -10,8 +10,13 @@
     "static/media/DSC_0714.JPG": "/static/media/DSC_0714.63f27e9d471631b8d71e.JPG",
     "static/media/DSC_0948.JPG": "/static/media/DSC_0948.16df733eebc3b64d5e09.JPG",
     "static/media/experiment_video_vaughn.mov": "/static/media/experiment_video_vaughn.811f60338b228aff4ad8.mov",
+    "static/media/lithuania_raganu_kalnas.jpg": "/static/media/lithuania_raganu_kalnas.bde321c6eccf6e5750e9.jpg",
+    "static/media/amsterdam.jpg": "/static/media/amsterdam.656b76c36c17c3b042d5.jpg",
+    "static/media/vinyl-globe-animation.gif": "/static/media/vinyl-globe-animation.87907b58b4b7924d10c9.gif",
     "static/media/DSC_0956.JPG": "/static/media/DSC_0956.d439d1ea8d0b50a8c182.JPG",
     "static/media/subject_front_view.jpg": "/static/media/subject_front_view.36afc0b0f034aa18d13a.jpg",
+    "static/media/polignano.jpg": "/static/media/polignano.f535c2e5073dc6449226.jpg",
+    "static/media/lithuania_nida_cross.jpg": "/static/media/lithuania_nida_cross.175481e38d5c53d955d1.jpg",
     "static/media/snapshots_30kN_transp_crop.png": "/static/media/snapshots_30kN_transp_crop.5430b41141c0e868daa8.png",
     "static/media/IROS23_1579_graphical_abstract.jpg": "/static/media/IROS23_1579_graphical_abstract.d57837e0074f93214998.jpg",
     "static/media/group_photo.jpg": "/static/media/group_photo.4f043354d45f5a5604ff.jpg",
@@ -35,10 +40,12 @@
     "static/media/personal_webpage.png": "/static/media/personal_webpage.94ca878d3fe06a4ff565.png",
     "static/media/angle_moment.png": "/static/media/angle_moment.59ebb56ea49ea915b669.png",
     "static/media/robot_with_boards.jpg": "/static/media/robot_with_boards.32063b3668c69cf29801.jpg",
+    "static/media/poland.jpg": "/static/media/poland.e5960740773f6cc7bd11.jpg",
     "static/media/CV_Karakasis_2024.pdf": "/static/media/CV_Karakasis_2024.455c0ea214f621029e84.pdf",
     "static/media/fa-brands-400.ttf": "/static/media/fa-brands-400.6205fd00fb1b573e9f0f.ttf",
     "static/media/fa-solid-900.woff2": "/static/media/fa-solid-900.fb8184add5a3101ad0a3.woff2",
     "static/media/unicyle.jpg": "/static/media/unicyle.6f5701887bd7dd14bf7c.jpg",
+    "static/media/berlin_erasmus_plus.jpg": "/static/media/berlin_erasmus_plus.b34bd22c492985f46872.jpg",
     "static/media/academicons.woff": "/static/media/academicons.c8b8bfc0fed119707316.woff",
     "static/media/fa-brands-400.woff2": "/static/media/fa-brands-400.8d3cabfc66809162fb4d.woff2",
     "static/media/results_lyap_highlight_long_10_15_20Nmdeg_VT.png": "/static/media/results_lyap_highlight_long_10_15_20Nmdeg_VT.719c13f844e38658ca8a.png",
@@ -46,6 +53,7 @@
     "static/media/refugee_camp.jpg": "/static/media/refugee_camp.1c5efb9c8a30f6329afd.jpg",
     "static/media/laelapsII.jpg": "/static/media/laelapsII.1b4a9a047a556db163c0.jpg",
     "static/media/record_robot_inky.jpg": "/static/media/record_robot_inky.6c0dfcceac5139a1a18f.jpg",
+    "static/media/chrys_backpack.jpeg": "/static/media/chrys_backpack.817f98184d957877c04c.jpeg",
     "static/media/fa-regular-400.ttf": "/static/media/fa-regular-400.adc51aab4d771ab65f81.ttf",
     "static/media/vicon_mocap.jpg": "/static/media/vicon_mocap.57672f86ed54573b8dff.jpg",
     "static/media/sextet.jpg": "/static/media/sextet.6a2f8cc228a8d6174bd0.jpg",
@@ -65,11 +73,11 @@
     "static/media/fa-v4compatibility.woff2": "/static/media/fa-v4compatibility.b3049b13a93f07e026fc.woff2",
     "index.html": "/index.html",
     "main.e06d1852.css.map": "/static/css/main.e06d1852.css.map",
-    "main.7c89ebd6.js.map": "/static/js/main.7c89ebd6.js.map",
+    "main.d2b11fd0.js.map": "/static/js/main.d2b11fd0.js.map",
     "592.39fbeac9.chunk.js.map": "/static/js/592.39fbeac9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e06d1852.css",
-    "static/js/main.7c89ebd6.js"
+    "static/js/main.d2b11fd0.js"
   ]
 }
