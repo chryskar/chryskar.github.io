@@ -7,6 +7,7 @@ import Hobbies from "./MainContent/Hobbies/Hobbies";
 import Diploma from "./MainContent/Experience/Diploma/Diploma";
 import TeachingAssistant from "./MainContent/Experience/TeachingAssistant/TeachingAssistant";
 import JnJIntern from "./MainContent/Experience/JnJIntern/JnJIntern"
+import JnJ from "./MainContent/Experience/JnJ/JnJ"
 import ResearchAssistant from "./MainContent/Experience/ResearchAssistant/ResearchAssistant";
 import JazzSaxophone from "./MainContent/Hobbies/JazzSaxophone/JazzSaxophone";
 import Circus from "./MainContent/Hobbies/Circus/Circus";
@@ -37,6 +38,7 @@ function App() {
                             <Route path="/experience" element={<Experience />} />
                             <Route path="/experience/research-assistant" element={<ResearchAssistant />} />
                             <Route path="/experience/jnj-intern" element={<JnJIntern />} />
+                            <Route path="/experience/jnj" element={<JnJ />} />
                             <Route path="/experience/phd-ud" element={<PhdUD />} />
                             <Route path="/experience/teaching-assistant" element={<TeachingAssistant />} />
                             <Route path="/experience/diploma" element={<Diploma />} />

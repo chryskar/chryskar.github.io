@@ -1,4 +1,4 @@
-import JnJ from './img/jjmedtech-logo-header.svg'
+import JnJ from './img/JJ_MT_Logo_SingleLine_Red_RGB.webp'
 import NTUA from './img/NTUA.png'
 import UD from './img/University of Delaware.png'
 import HORC from './img/HORC_Logo_LightBG.png'
@@ -14,6 +14,18 @@ function Experience () {
                 <h1 className="fw-bold">Experience</h1>
                 <div className="container d-flex flex-wrap justify-content-center">
 
+                    <Link to={"jnj"} className="d-flex flex-column align-items-center m-5 clickable">
+                        <div className="card-shadow">
+                            <div className="card">
+                                <div className="card-image-container">
+                                    <img className="card-image" src={JnJ} alt="JnJ"/>
+                                </div>
+                                <div className="card-title fw-bold">Senior Robotics and Controls Engineer</div>
+                                <div className="card-subtext fw-bold">July 2024 - Present</div>
+                            </div>
+                        </div>
+                    </Link>
+
                     <Link to={"research-assistant"} className="d-flex flex-column align-items-center m-5 clickable">
                         <div className="card-shadow">
                             <div className="card">
@@ -21,7 +33,7 @@ function Experience () {
                                     <img className="card-image" src={HORC} alt="HORC"/>
                                 </div>
                                 <div className="card-title fw-bold">Graduate Research Assistant</div>
-                                <div className="card-subtext fw-bold">2019-Present</div>
+                                <div className="card-subtext fw-bold">2019-2024</div>
                             </div>
                         </div>
                     </Link>
