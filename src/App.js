@@ -1,5 +1,5 @@
 import './App.css';
-import {HashRouter, Routes, Route, Navigate} from 'react-router-dom';
+import { HashRouter, Routes, Route, Navigate } from 'react-router-dom';
 import Home from "./MainContent/Home/Home";
 import Experience from "./MainContent/Experience/Experience";
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -10,6 +10,8 @@ import JnJIntern from "./MainContent/Experience/JnJIntern/JnJIntern"
 import JnJ from "./MainContent/Experience/JnJ/JnJ"
 import ResearchAssistant from "./MainContent/Experience/ResearchAssistant/ResearchAssistant";
 import JazzSaxophone from "./MainContent/Hobbies/JazzSaxophone/JazzSaxophone";
+import Ranking from "./MainContent/Hobbies/Ranking/Ranking"
+import Cooking from "./MainContent/Hobbies/Cooking/Cooking"
 import Circus from "./MainContent/Hobbies/Circus/Circus";
 import Layout from "./Layout";
 import Publications from "./MainContent/Publications/Publications";
@@ -57,6 +59,8 @@ function App() {
                             <Route path="/hobbies/jazz-saxophone" element={<JazzSaxophone />} />
                             <Route path="/hobbies/collecting-records" element={<CollectingRecords />} />
                             <Route path="/hobbies/travelling" element={<Travel />} />
+                            <Route path="/hobbies/ranking" element={<Ranking />} />
+                            <Route path="/hobbies/cooking" element={<Cooking />} />
                             <Route path="/publications" element={<Publications />} />
                             <Route path="*" element={<Navigate to="/" replace />} />
                         </Routes>
