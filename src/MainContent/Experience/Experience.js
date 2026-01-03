@@ -4,10 +4,10 @@ import UD from './img/University of Delaware.png'
 import HORC from './img/HORC_Logo_LightBG.png'
 import MLAB from './img/cropped-mlab_logo_white-1.jpg'
 
-import {Link} from "react-router-dom";
+import { Link } from "react-router-dom";
 import './BoxWithImage.css'; // Import your CSS file
 
-function Experience () {
+function Experience() {
     return (
         <div>
             <div className="d-flex flex-column align-items-center">
@@ -18,7 +18,7 @@ function Experience () {
                         <div className="card-shadow">
                             <div className="card">
                                 <div className="card-image-container">
-                                    <img className="card-image" src={JnJ} alt="JnJ"/>
+                                    <img className="card-image" src={JnJ} alt="JnJ" />
                                 </div>
                                 <div className="card-title fw-bold">Senior Robotics and Controls Engineer</div>
                                 <div className="card-subtext fw-bold">July 2024 - Present</div>
@@ -30,7 +30,7 @@ function Experience () {
                         <div className="card-shadow">
                             <div className="card">
                                 <div className="card-image-container">
-                                    <img className="card-image" src={HORC} alt="HORC"/>
+                                    <img className="card-image" src={HORC} alt="HORC" />
                                 </div>
                                 <div className="card-title fw-bold">Graduate Research Assistant</div>
                                 <div className="card-subtext fw-bold">2019-2024</div>
@@ -42,7 +42,7 @@ function Experience () {
                         <div className="card-shadow">
                             <div className="card">
                                 <div className="card-image-container">
-                                    <img className="card-image" src={JnJ} alt="JnJ"/>
+                                    <img className="card-image" src={JnJ} alt="JnJ" />
                                 </div>
                                 <div className="card-title fw-bold">Robotics and Controls Engineer Intern</div>
                                 <div className="card-subtext fw-bold">June 2022- August 2022</div>
@@ -54,10 +54,10 @@ function Experience () {
                         <div className="card-shadow">
                             <div className="card">
                                 <div className="card-image-container">
-                                    <img className="card-image" src={UD} style={{ width: '80%' }} alt="UD"/>
+                                    <img className="card-image" src={UD} style={{ width: '80%' }} alt="UD" />
                                 </div>
                                 <div className="card-title fw-bold">Ph.D. in Mechanical Engineering</div>
-                                <div className="card-subtext fw-bold">2019-Present</div>
+                                <div className="card-subtext fw-bold">2019-2024</div>
                             </div>
                         </div>
                     </Link>
@@ -66,7 +66,7 @@ function Experience () {
                         <div className="card-shadow">
                             <div className="card">
                                 <div className="card-image-container">
-                                    <img className="card-image" src={MLAB} alt="MLAB"/>
+                                    <img className="card-image" src={MLAB} alt="MLAB" />
                                 </div>
                                 <div className="card-title fw-bold">Teaching Assistant</div>
                                 <div className="card-subtext fw-bold">2018-2019</div>
@@ -78,7 +78,7 @@ function Experience () {
                         <div className="card-shadow">
                             <div className="card">
                                 <div className="card-image-container">
-                                    <img className="card-image" style={{ width: '50%' }} src={NTUA} alt="NTUA"/>
+                                    <img className="card-image" style={{ width: '50%' }} src={NTUA} alt="NTUA" />
                                 </div>
                                 <div className="card-title fw-bold">Diploma in Electrical and Computer Engineering</div>
                                 <div className="card-subtext fw-bold">2013-2019</div>
