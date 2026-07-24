@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.b320e3c0.css",
-    "main.js": "/static/js/main.0b1c39fe.js",
+    "main.js": "/static/js/main.c3ab03fa.js",
     "static/js/453.d63f0b4d.chunk.js": "/static/js/453.d63f0b4d.chunk.js",
     "static/media/IROS23_1579.mp4": "/static/media/IROS23_1579.38a7255ed3318ff208c7.mp4",
     "static/media/IROS23_1579_VI_i.mp4": "/static/media/IROS23_1579_VI_i.59abb79730678ce88020.mp4",
@@ -58,8 +58,8 @@
     "static/media/angle_moment.png": "/static/media/angle_moment.59ebb56ea49ea915b669.png",
     "static/media/robot_with_boards.jpg": "/static/media/robot_with_boards.32063b3668c69cf29801.jpg",
     "static/media/poland.jpg": "/static/media/poland.e5960740773f6cc7bd11.jpg",
-    "static/media/CV_Karakasis_2024.pdf": "/static/media/CV_Karakasis_2024.455c0ea214f621029e84.pdf",
     "static/media/fa-brands-400.ttf": "/static/media/fa-brands-400.1815e00441357e01619e.ttf",
+    "static/media/CV_Karakasis_2026.pdf": "/static/media/CV_Karakasis_2026.40c9977e2425a0d392ee.pdf",
     "static/media/fa-solid-900.woff2": "/static/media/fa-solid-900.2463b90d9a316e4e5294.woff2",
     "static/media/unicyle.jpg": "/static/media/unicyle.6f5701887bd7dd14bf7c.jpg",
     "static/media/academicons.woff": "/static/media/academicons.3bffeab99dd184ea1e19.woff",
@@ -92,11 +92,11 @@
     "static/media/fa-v4compatibility.woff2": "/static/media/fa-v4compatibility.ea8f94e1d22e0d35ccd4.woff2",
     "index.html": "/index.html",
     "main.b320e3c0.css.map": "/static/css/main.b320e3c0.css.map",
-    "main.0b1c39fe.js.map": "/static/js/main.0b1c39fe.js.map",
+    "main.c3ab03fa.js.map": "/static/js/main.c3ab03fa.js.map",
     "453.d63f0b4d.chunk.js.map": "/static/js/453.d63f0b4d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b320e3c0.css",
-    "static/js/main.0b1c39fe.js"
+    "static/js/main.c3ab03fa.js"
   ]
 }
